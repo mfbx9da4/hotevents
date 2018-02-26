@@ -1,0 +1,3848 @@
+[
+    {
+        "created": 1375261532000,
+        "duration": 93600000,
+        "id": "132309232",
+        "name": "BEER/WINE PONG & 90's PARTY with International Travelers & Locals",
+        "status": "upcoming",
+        "time": 1520053200000,
+        "local_date": "2018-03-02",
+        "local_time": "21:00",
+        "updated": 1519457154000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 292,
+        "venue": {
+            "id": 16057492,
+            "name": "498 Broadway St",
+            "lat": 37.79817199707031,
+            "lon": -122.40545654296875,
+            "repinned": false,
+            "address_1": "498 Broadway St",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94133",
+            "state": "Ca"
+        },
+        "group": {
+            "created": 1322775026000,
+            "name": "The North Beach Happy Hours and Social Group",
+            "id": 2891732,
+            "join_mode": "open",
+            "lat": 37.79999923706055,
+            "lon": -122.41000366210938,
+            "urlname": "The-North-Beach-Happy-Hours-and-Social-Group",
+            "who": "North Beach Fans",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 498,
+                    "name": "Singles",
+                    "urlkey": "singles",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 611,
+                    "name": "Wine",
+                    "urlkey": "wine",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 713,
+                    "name": "Dining Out",
+                    "urlkey": "diningout",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1273,
+                    "name": "New In Town",
+                    "urlkey": "newintown",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 4392,
+                    "name": "Nightlife",
+                    "urlkey": "nightlife",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 4422,
+                    "name": "Social Networking",
+                    "urlkey": "socialnetwork",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10581,
+                    "name": "Social",
+                    "urlkey": "social",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16800,
+                    "name": "Happy Hour",
+                    "urlkey": "happy-hours",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 26567,
+                    "name": "Art Walks and Tours",
+                    "urlkey": "art-walks-and-tours",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 64867,
+                    "name": "Local Activities",
+                    "urlkey": "local-activities",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/The-North-Beach-Happy-Hours-and-Social-Group/events/132309232/",
+        "visibility": "public",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "132309232"
+    },
+    {
+        "created": 1509988876000,
+        "duration": 7200000,
+        "id": "244871362",
+        "name": "Berkeley Martinez on Redux at FreeCodeCamp / Intro to ReasonML @Distribute",
+        "rsvp_limit": 100,
+        "status": "upcoming",
+        "time": 1519786800000,
+        "local_date": "2018-02-27",
+        "local_time": "19:00",
+        "updated": 1519077845000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 89,
+        "venue": {
+            "id": 25681394,
+            "name": "Distribute",
+            "lat": 37.779090881347656,
+            "lon": -122.39395141601562,
+            "repinned": false,
+            "address_1": "345 Ritch Street",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94107",
+            "state": "ca"
+        },
+        "group": {
+            "created": 1499989596000,
+            "name": "San Francisco TypeScript Meetup",
+            "id": 24974234,
+            "join_mode": "open",
+            "lat": 37.7599983215332,
+            "lon": -122.44000244140625,
+            "urlname": "San-Francisco-TypeScript-Meetup",
+            "who": "<Typescripters>",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 563,
+                    "name": "Open Source",
+                    "urlkey": "opensource",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 2260,
+                    "name": "C#",
+                    "urlkey": "csharp",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 3833,
+                    "name": "Software Development",
+                    "urlkey": "softwaredev",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 7029,
+                    "name": "JavaScript",
+                    "urlkey": "javascript",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10209,
+                    "name": "Web Technology",
+                    "urlkey": "web",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15582,
+                    "name": "Web Development",
+                    "urlkey": "web-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 17628,
+                    "name": "Programming Languages",
+                    "urlkey": "programming-languages",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 17936,
+                    "name": "Scala",
+                    "urlkey": "scala",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 22792,
+                    "name": "Functional Programming",
+                    "urlkey": "functional-programming",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 48471,
+                    "name": "Computer programming",
+                    "urlkey": "computer-programming",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 100479,
+                    "name": "Front-end Development",
+                    "urlkey": "front-end-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1478042,
+                    "name": "Typescript",
+                    "urlkey": "typescript",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1511639,
+                    "name": "Angular 2",
+                    "urlkey": "angular-2",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/San-Francisco-TypeScript-Meetup/events/244871362/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "89",
+        "hot": true,
+        "objectID": "244871362"
+    },
+    {
+        "created": 1519672997986,
+        "duration": 10800000,
+        "id": "244936332",
+        "name": "March 2018 - Bay Area Cyber Security Meetup - San Francisco",
+        "status": "upcoming",
+        "time": 1520474400000,
+        "local_date": "2018-03-07",
+        "local_time": "18:00",
+        "updated": 1519672997986,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 208,
+        "group": {
+            "created": 1410471357000,
+            "name": "Bay Area Cyber Security Meetup",
+            "id": 16943162,
+            "join_mode": "open",
+            "lat": 37.77000045776367,
+            "lon": -122.4000015258789,
+            "urlname": "Bay-Area-Cyber-Security-Meetup",
+            "who": "Security Enthusiasts",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 15471,
+                    "name": "Web Security",
+                    "urlkey": "web-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 28997,
+                    "name": "Data Protection",
+                    "urlkey": "data-protection",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 32743,
+                    "name": "Information Security",
+                    "urlkey": "information-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 62127,
+                    "name": "Information Systems Security",
+                    "urlkey": "information-systems-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 82457,
+                    "name": "Email Security",
+                    "urlkey": "email-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 82460,
+                    "name": "Firewalls",
+                    "urlkey": "firewalls",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 85537,
+                    "name": "mobile security",
+                    "urlkey": "mobile-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 124668,
+                    "name": "Computer Security",
+                    "urlkey": "computer-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 129080,
+                    "name": "data security",
+                    "urlkey": "data-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 152026,
+                    "name": "Cybersecurity",
+                    "urlkey": "cybersecurity",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1039142,
+                    "name": "International Cybersecurity",
+                    "urlkey": "international-cybersecurity",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1039172,
+                    "name": "Cybersecurity Innovation",
+                    "urlkey": "cybersecurity-innovation",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/Bay-Area-Cyber-Security-Meetup/events/244936332/",
+        "visibility": "public_limited",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "244936332"
+    },
+    {
+        "created": 1510846748000,
+        "duration": 7200000,
+        "id": "245160957",
+        "name": "Bridging the Divide between Architecture and Code",
+        "status": "upcoming",
+        "time": 1520474400000,
+        "local_date": "2018-03-07",
+        "local_time": "18:00",
+        "updated": 1510846748000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 181,
+        "venue": {
+            "id": 1159859,
+            "name": "Pivotal Labs ",
+            "lat": 37.78192901611328,
+            "lon": -122.4041748046875,
+            "repinned": false,
+            "address_1": "875 Howard St.",
+            "address_2": "5th floor",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94103",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1199722724000,
+            "name": "The San Francisco Java User Group",
+            "id": 930480,
+            "join_mode": "open",
+            "lat": 37.77000045776367,
+            "lon": -122.41000366210938,
+            "urlname": "sfjava",
+            "who": "Java Developers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 189,
+                    "name": "Java",
+                    "urlkey": "java",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 563,
+                    "name": "Open Source",
+                    "urlkey": "opensource",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 3354,
+                    "name": "Enterprise Architecture",
+                    "urlkey": "entarchitecture",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 3833,
+                    "name": "Software Development",
+                    "urlkey": "softwaredev",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10209,
+                    "name": "Web Technology",
+                    "urlkey": "web",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15582,
+                    "name": "Web Development",
+                    "urlkey": "web-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21441,
+                    "name": "Mobile Development",
+                    "urlkey": "mobile-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29971,
+                    "name": "Machine Learning",
+                    "urlkey": "machine-learning",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 48471,
+                    "name": "Computer programming",
+                    "urlkey": "computer-programming",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 50224,
+                    "name": "Spring Framework",
+                    "urlkey": "spring-framework",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 131201,
+                    "name": "Java EE",
+                    "urlkey": "java-ee",
+                    "lang": "es"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/sfjava/events/245160957/",
+        "manual_attendance_count": 0,
+        "visibility": "public",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "245160957"
+    },
+    {
+        "created": 1511915511000,
+        "duration": 97200000,
+        "id": "245481127",
+        "name": "Storytelling & Tools in 360/VR/MR!",
+        "rsvp_limit": 100,
+        "status": "upcoming",
+        "time": 1519956000000,
+        "local_date": "2018-03-01",
+        "local_time": "18:00",
+        "updated": 1519447544000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 82,
+        "venue": {
+            "id": 25231755,
+            "name": "WeWork Golden Gate",
+            "lat": 37.78251647949219,
+            "lon": -122.4111557006836,
+            "repinned": false,
+            "address_1": "25 Taylor Street",
+            "city": "San Francisco",
+            "country": "US",
+            "localized_country_name": "USA"
+        },
+        "group": {
+            "created": 1468303564000,
+            "name": "Film 360/VR/MR/AR - Bay Area",
+            "id": 20174488,
+            "join_mode": "open",
+            "lat": 37.779998779296875,
+            "lon": -122.41999816894531,
+            "urlname": "Film-360-VR-MR",
+            "who": "Talents",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 223,
+                    "name": "Photography",
+                    "urlkey": "photo",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 382,
+                    "name": "Film Industry",
+                    "urlkey": "filmind",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 427,
+                    "name": "Digital Video",
+                    "urlkey": "dv",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 567,
+                    "name": "Screenwriting",
+                    "urlkey": "screenwriters",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 4422,
+                    "name": "Social Networking",
+                    "urlkey": "socialnetwork",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 9696,
+                    "name": "New Technology",
+                    "urlkey": "newtech",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15029,
+                    "name": "Film",
+                    "urlkey": "film",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18148,
+                    "name": "Video Editing",
+                    "urlkey": "video-editing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20021,
+                    "name": "Film and Video Production",
+                    "urlkey": "film-and-video-production",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 26062,
+                    "name": "Virtual Reality",
+                    "urlkey": "virtual-reality",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29244,
+                    "name": "Editors, DP's, Directors, Producers, Writers",
+                    "urlkey": "editors-dps-directors-producers-writers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 31082,
+                    "name": "Filmmaking",
+                    "urlkey": "film-makers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 48847,
+                    "name": "Independent Filmmaking",
+                    "urlkey": "independent-filmmakers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 98101,
+                    "name": "Mixed Reality",
+                    "urlkey": "mixed-reality",
+                    "lang": "it"
+                },
+                {
+                    "id": 468552,
+                    "name": "POST-PRODUCTION: EDITING & Visual Effects VFX",
+                    "urlkey": "post-production-editing-visual-effects-vfx",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/Film-360-VR-MR/events/245481127/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "82",
+        "hot": true,
+        "objectID": "245481127"
+    },
+    {
+        "created": 1513706994000,
+        "duration": 3600000,
+        "id": "246042561",
+        "name": "GCP Live - Istio 101",
+        "status": "upcoming",
+        "time": 1519851600000,
+        "local_date": "2018-02-28",
+        "local_time": "13:00",
+        "updated": 1513707047000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 230,
+        "venue": {
+            "id": 25666381,
+            "name": "YouTube Live - https://www.youtube.com/watch?v=oIcjSRQEA9c",
+            "lat": 37.79073715209961,
+            "lon": -122.39179229736328,
+            "repinned": false,
+            "address_1": "Spear Street",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94105",
+            "state": "ca"
+        },
+        "group": {
+            "created": 1473391468000,
+            "name": "Google Cloud Platform (GCP) Online Meetup",
+            "id": 20404519,
+            "join_mode": "open",
+            "lat": 37.40999984741211,
+            "lon": -122.05000305175781,
+            "urlname": "GCPOnline",
+            "who": "Members",
+            "localized_location": "Mountain View, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 6490,
+                    "name": "Google",
+                    "urlkey": "google",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15167,
+                    "name": "Cloud Computing",
+                    "urlkey": "cloud-computing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18062,
+                    "name": "Big Data",
+                    "urlkey": "big-data",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29971,
+                    "name": "Machine Learning",
+                    "urlkey": "machine-learning",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 31197,
+                    "name": "PaaS (Platform as a Service)",
+                    "urlkey": "paas",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 90143,
+                    "name": "Google App Engine",
+                    "urlkey": "google-app-engine",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 107633,
+                    "name": "IaaS (Infrastructure as a Service)",
+                    "urlkey": "iaas-infrastructure-as-a-service",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 110474,
+                    "name": "Cloud Security",
+                    "urlkey": "cloud-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 291351,
+                    "name": "Cloud Storage",
+                    "urlkey": "cloud-storage",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 989262,
+                    "name": "Google Developer Group",
+                    "urlkey": "google-developer-group",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1475932,
+                    "name": "Google Cloud Platform",
+                    "urlkey": "google-cloud-platform",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1500742,
+                    "name": "Kubernetes",
+                    "urlkey": "kubernetes",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/GCPOnline/events/246042561/",
+        "how_to_find_us": "https://www.youtube.com/watch?v=oIcjSRQEA9c",
+        "visibility": "public",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "246042561"
+    },
+    {
+        "created": 1516416503000,
+        "duration": 10800000,
+        "id": "246983823",
+        "name": "Intro to Angular 5 | Build your Go web app and deploy on Heroku",
+        "status": "upcoming",
+        "time": 1520474400000,
+        "local_date": "2018-03-07",
+        "local_time": "18:00",
+        "updated": 1519596622000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 139,
+        "venue": {
+            "id": 24498782,
+            "name": "Google San Francisco",
+            "lat": 37.7900505065918,
+            "lon": -122.39019012451172,
+            "repinned": false,
+            "address_1": "345 Spear St, 7th floor",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1317930262000,
+            "name": "Google Developer Group San Francisco @sf_gdg",
+            "id": 2603182,
+            "join_mode": "open",
+            "lat": 37.790000915527344,
+            "lon": -122.41000366210938,
+            "urlname": "google-developer-group-san-francisco",
+            "who": "Google Developers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 189,
+                    "name": "Java",
+                    "urlkey": "java",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 3833,
+                    "name": "Software Development",
+                    "urlkey": "softwaredev",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 6490,
+                    "name": "Google",
+                    "urlkey": "google",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10102,
+                    "name": "Internet Professionals",
+                    "urlkey": "internetpro",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15582,
+                    "name": "Web Development",
+                    "urlkey": "web-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16216,
+                    "name": "Mobile Technology",
+                    "urlkey": "mobile-technology",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 17742,
+                    "name": "Social Media Marketing",
+                    "urlkey": "social-media-marketing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19724,
+                    "name": "Android",
+                    "urlkey": "android",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20346,
+                    "name": "Android Development",
+                    "urlkey": "android-developers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 24001,
+                    "name": "GTUG",
+                    "urlkey": "gtug",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 27790,
+                    "name": "Google Technology User Group",
+                    "urlkey": "google-technology-user-group",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29971,
+                    "name": "Machine Learning",
+                    "urlkey": "machine-learning",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 33089,
+                    "name": "SaaS (Software as a Service)",
+                    "urlkey": "saas-software-as-a-service",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 989262,
+                    "name": "Google Developer Group",
+                    "urlkey": "google-developer-group",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/google-developer-group-san-francisco/events/246983823/",
+        "visibility": "public",
+        "pro_is_email_shared": false,
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "246983823"
+    },
+    {
+        "created": 1516720722000,
+        "duration": 7200000,
+        "id": "247086330",
+        "name": "Apple Beats Music fmr Product VP on Building Trustworthy Products",
+        "status": "upcoming",
+        "time": 1519873200000,
+        "local_date": "2018-02-28",
+        "local_time": "19:00",
+        "updated": 1516720722000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 149,
+        "venue": {
+            "id": 15022762,
+            "name": "Yelp",
+            "lat": 37.78666305541992,
+            "lon": -122.39977264404297,
+            "repinned": false,
+            "address_1": "140 New Montgomery",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94105",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1393004428000,
+            "name": "Products That Count",
+            "id": 13000052,
+            "join_mode": "open",
+            "lat": 37.77000045776367,
+            "lon": -122.41000366210938,
+            "urlname": "ProductsThatCount",
+            "who": "product makers and innovators",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 2993,
+                    "name": "Product Design",
+                    "urlkey": "productdesign",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 9696,
+                    "name": "New Technology",
+                    "urlkey": "newtech",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15208,
+                    "name": "Mobile Marketing",
+                    "urlkey": "mobile-marketing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15720,
+                    "name": "Professional Networking",
+                    "urlkey": "professional-networking",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16216,
+                    "name": "Mobile Technology",
+                    "urlkey": "mobile-technology",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19882,
+                    "name": "Entrepreneurship",
+                    "urlkey": "entrepreneurship",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21441,
+                    "name": "Mobile Development",
+                    "urlkey": "mobile-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21681,
+                    "name": "Startup Businesses",
+                    "urlkey": "startup-businesses",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 30928,
+                    "name": "Data Analytics",
+                    "urlkey": "data-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 42012,
+                    "name": "Product Development",
+                    "urlkey": "product-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 42278,
+                    "name": "Software Product Management",
+                    "urlkey": "software-product-management",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 43887,
+                    "name": "Makers",
+                    "urlkey": "makers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 93740,
+                    "name": "Product Management",
+                    "urlkey": "product-management",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 99649,
+                    "name": "Startup Incubation",
+                    "urlkey": "startup-incubation-and-entrepreneurship-mentors",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 635622,
+                    "name": "Mobile Product Management",
+                    "urlkey": "mobile-product-management",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/ProductsThatCount/events/247086330/",
+        "visibility": "public",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "247086330"
+    },
+    {
+        "created": 1516754211000,
+        "duration": 10800000,
+        "id": "247101792",
+        "name": "MLUX Tech Talk: Tony Chu, Noodle.ai, at SAP.io",
+        "status": "upcoming",
+        "time": 1519696800000,
+        "local_date": "2018-02-26",
+        "local_time": "18:00",
+        "updated": 1517437635000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 119,
+        "venue": {
+            "id": 25476597,
+            "name": "SAP.io",
+            "lat": 37.781410217285156,
+            "lon": -122.39301300048828,
+            "repinned": false,
+            "address_1": "334 Brannan St",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1501791496000,
+            "name": "Machine Learning & User Experience (MLUX) - SF Bay Area",
+            "id": 25329637,
+            "join_mode": "open",
+            "lat": 37.779998779296875,
+            "lon": -122.41999816894531,
+            "urlname": "MLUXSF",
+            "who": "MLUX'ers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 456,
+                    "name": "Artificial Intelligence",
+                    "urlkey": "ai",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 659,
+                    "name": "Web Design",
+                    "urlkey": "webdesign",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10110,
+                    "name": "Interaction Design",
+                    "urlkey": "ixd",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19243,
+                    "name": "User Experience",
+                    "urlkey": "user-experience",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29971,
+                    "name": "Machine Learning",
+                    "urlkey": "machine-learning",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 30928,
+                    "name": "Data Analytics",
+                    "urlkey": "data-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 37381,
+                    "name": "Data Visualization",
+                    "urlkey": "data-visualization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 38458,
+                    "name": "Predictive Analytics",
+                    "urlkey": "predictive-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 49541,
+                    "name": "User Research",
+                    "urlkey": "user-research",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 61781,
+                    "name": "UX Design",
+                    "urlkey": "ux-design",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 102811,
+                    "name": "Data Science",
+                    "urlkey": "data-science",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 107583,
+                    "name": "UI Design",
+                    "urlkey": "ui-design",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 480492,
+                    "name": "UX Research",
+                    "urlkey": "ux-research",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/MLUXSF/events/247101792/",
+        "visibility": "public",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "247101792"
+    },
+    {
+        "created": 1516908684000,
+        "duration": 7200000,
+        "id": "247162717",
+        "name": "‘Brotopia’ author Emily Chang on Breaking Up the Boys' Club of Silicon Valley ",
+        "rsvp_limit": 160,
+        "status": "upcoming",
+        "time": 1519867800000,
+        "local_date": "2018-02-28",
+        "local_time": "17:30",
+        "updated": 1519261582000,
+        "utc_offset": -28800000,
+        "waitlist_count": 14,
+        "yes_rsvp_count": 160,
+        "venue": {
+            "id": 24969103,
+            "name": "Scribd Headquarters",
+            "lat": 0,
+            "lon": 0,
+            "repinned": false,
+            "address_1": "333 Bush Street ",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1481073196000,
+            "name": "#ScribdChat",
+            "id": 21500080,
+            "join_mode": "open",
+            "lat": 37.790000915527344,
+            "lon": -122.4000015258789,
+            "urlname": "scribd",
+            "who": "Readers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 3336,
+                    "name": "Self-Improvement",
+                    "urlkey": "self-improvement",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10575,
+                    "name": "Business",
+                    "urlkey": "business",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15083,
+                    "name": "Intellectual Discussion",
+                    "urlkey": "intellectual-discussion",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15360,
+                    "name": "Reading",
+                    "urlkey": "reading",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15720,
+                    "name": "Professional Networking",
+                    "urlkey": "professional-networking",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15844,
+                    "name": "Authors",
+                    "urlkey": "authors",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16651,
+                    "name": "Self-Help",
+                    "urlkey": "self-help",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 17635,
+                    "name": "Business Strategy",
+                    "urlkey": "business-strategy",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19882,
+                    "name": "Entrepreneurship",
+                    "urlkey": "entrepreneurship",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20060,
+                    "name": "Entrepreneur Networking",
+                    "urlkey": "business-entrepreneur-networking",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 22888,
+                    "name": "Career",
+                    "urlkey": "careers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 31732,
+                    "name": "Non-fiction writing",
+                    "urlkey": "non-fiction-writing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 38757,
+                    "name": "Self-Empowerment",
+                    "urlkey": "self-empowerment",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 135717,
+                    "name": "Executive Coaching",
+                    "urlkey": "executive-coaching",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 608402,
+                    "name": "Book writing",
+                    "urlkey": "book-writing",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/scribd/events/247162717/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "100",
+        "hot": true,
+        "objectID": "247162717"
+    },
+    {
+        "created": 1517282104000,
+        "duration": 7200000,
+        "id": "247301330",
+        "name": "Blockchain 101 ",
+        "rsvp_limit": 100,
+        "status": "upcoming",
+        "time": 1519785000000,
+        "local_date": "2018-02-27",
+        "local_time": "18:30",
+        "updated": 1517282279000,
+        "utc_offset": -28800000,
+        "waitlist_count": 42,
+        "yes_rsvp_count": 100,
+        "venue": {
+            "id": 24820984,
+            "name": "General Assembly",
+            "lat": 37.77492904663086,
+            "lon": -122.41941833496094,
+            "repinned": false,
+            "address_1": "225 Bush St.  5th Floor (East Entrance)",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1511109172000,
+            "name": "ConsenSys Ethereum Meetup San Francisco",
+            "id": 26644096,
+            "join_mode": "open",
+            "lat": 37.779998779296875,
+            "lon": -122.41999816894531,
+            "urlname": "ConsenSys-Ethereum-Meetup-San-Francisco",
+            "who": "Members",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 100259,
+                    "name": "Decentralization",
+                    "urlkey": "decentralization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1461892,
+                    "name": "Decentralized Systems",
+                    "urlkey": "decentralized-systems",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1471982,
+                    "name": "Smart Contracts",
+                    "urlkey": "smart-contracts",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1471992,
+                    "name": "Ethereum",
+                    "urlkey": "ethereum",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1493232,
+                    "name": "Blockchain",
+                    "urlkey": "blockchain",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1511815,
+                    "name": "Women in Blockchain",
+                    "urlkey": "women-in-blockchain",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1514179,
+                    "name": "Ethereum blockchain",
+                    "urlkey": "ethereum-blockchain",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/ConsenSys-Ethereum-Meetup-San-Francisco/events/247301330/",
+        "visibility": "public",
+        "pro_is_email_shared": false,
+        "is_getting_full": true,
+        "percent_full": "100",
+        "hot": true,
+        "objectID": "247301330"
+    },
+    {
+        "created": 1517292603000,
+        "duration": 7200000,
+        "id": "247304621",
+        "name": "Dapp Development Worksession – Smart Contracts & Mobile App Dev",
+        "rsvp_limit": 120,
+        "status": "upcoming",
+        "time": 1519869600000,
+        "local_date": "2018-02-28",
+        "local_time": "18:00",
+        "updated": 1519591614000,
+        "utc_offset": -28800000,
+        "waitlist_count": 45,
+        "yes_rsvp_count": 169,
+        "venue": {
+            "id": 25277326,
+            "name": "Cloudflare - HQ",
+            "lat": 37.78022384643555,
+            "lon": -122.39058685302734,
+            "repinned": false,
+            "address_1": "101 Townsend Street",
+            "city": "San Francisco",
+            "country": "US",
+            "localized_country_name": "USA"
+        },
+        "group": {
+            "created": 1429060150000,
+            "name": "SF Ethereum Developers",
+            "id": 18548078,
+            "join_mode": "open",
+            "lat": 37.779998779296875,
+            "lon": -122.41999816894531,
+            "urlname": "SF-Ethereum-Developers",
+            "who": "Members",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 70315,
+                    "name": "Virtual Currency",
+                    "urlkey": "virtual-currency",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 84681,
+                    "name": "Cryptography",
+                    "urlkey": "cryptography",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 100259,
+                    "name": "Decentralization",
+                    "urlkey": "decentralization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 139517,
+                    "name": "Bitcoin",
+                    "urlkey": "bitcoin",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 143713,
+                    "name": "Digital Currency",
+                    "urlkey": "digital-currency",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 191791,
+                    "name": "Cryptocurrency",
+                    "urlkey": "cryptocurrency",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1471982,
+                    "name": "Smart Contracts",
+                    "urlkey": "smart-contracts",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1471992,
+                    "name": "Ethereum",
+                    "urlkey": "ethereum",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/SF-Ethereum-Developers/events/247304621/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "141",
+        "hot": true,
+        "objectID": "247304621"
+    },
+    {
+        "created": 1517508689000,
+        "duration": 3600000,
+        "id": "247389189",
+        "name": "MQTT 5: What's New?",
+        "status": "upcoming",
+        "time": 1520438400000,
+        "local_date": "2018-03-07",
+        "local_time": "08:00",
+        "updated": 1518518861000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 110,
+        "group": {
+            "created": 1409068350000,
+            "name": "Virtual IoT",
+            "id": 16613742,
+            "join_mode": "open",
+            "lat": 37.779998779296875,
+            "lon": -122.41999816894531,
+            "urlname": "Virtual-IoT",
+            "who": "IoT enthusiasts",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 3833,
+                    "name": "Software Development",
+                    "urlkey": "softwaredev",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 9696,
+                    "name": "New Technology",
+                    "urlkey": "newtech",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 79740,
+                    "name": "Internet of Things",
+                    "urlkey": "internet-of-things",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/Virtual-IoT/events/247389189/",
+        "visibility": "public",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "247389189"
+    },
+    {
+        "created": 1517600363000,
+        "duration": 7200000,
+        "id": "247427632",
+        "name": "Financial Inclusion w/ TrueAccord, Juvo and Insikt",
+        "rsvp_limit": 90,
+        "status": "upcoming",
+        "time": 1519871400000,
+        "local_date": "2018-02-28",
+        "local_time": "18:30",
+        "updated": 1519072483000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 83,
+        "venue": {
+            "id": 25718315,
+            "name": "Insikt",
+            "lat": 37.79064178466797,
+            "lon": -122.4030532836914,
+            "repinned": false,
+            "address_1": "333 Bush St",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94104",
+            "state": "ca"
+        },
+        "group": {
+            "created": 1457034507000,
+            "name": "Fintech Devs & PMs",
+            "id": 19658077,
+            "join_mode": "open",
+            "lat": 37.779998779296875,
+            "lon": -122.41999816894531,
+            "urlname": "fintech-devs-and-pms",
+            "who": "fintechers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 15582,
+                    "name": "Web Development",
+                    "urlkey": "web-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 22467,
+                    "name": "Finance",
+                    "urlkey": "finance",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 34050,
+                    "name": "Financial Technology",
+                    "urlkey": "financial-technology",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 48471,
+                    "name": "Computer programming",
+                    "urlkey": "computer-programming",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 131681,
+                    "name": "Financial Innovation",
+                    "urlkey": "financial-innovation",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/fintech-devs-and-pms/events/247427632/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "92",
+        "hot": true,
+        "objectID": "247427632"
+    },
+    {
+        "created": 1517941483000,
+        "duration": 7200000,
+        "id": "247549849",
+        "name": "Squeezing images, Scaling Geospatial Data & Reconsidering React Server Rendering",
+        "rsvp_limit": 300,
+        "status": "upcoming",
+        "time": 1519783200000,
+        "local_date": "2018-02-27",
+        "local_time": "18:00",
+        "updated": 1519361312000,
+        "utc_offset": -28800000,
+        "waitlist_count": 25,
+        "yes_rsvp_count": 300,
+        "venue": {
+            "id": 24385366,
+            "name": "Uber",
+            "lat": 37.78999710083008,
+            "lon": -122.39990997314453,
+            "repinned": false,
+            "address_1": "555 Market Street",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1410761890000,
+            "name": "Uber Engineering Events - San Francisco",
+            "id": 16999332,
+            "join_mode": "open",
+            "lat": 37.790000915527344,
+            "lon": -122.4000015258789,
+            "urlname": "UberEvents",
+            "who": "Engineering Enthusiasts",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 3833,
+                    "name": "Software Development",
+                    "urlkey": "softwaredev",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16325,
+                    "name": "Software Engineering",
+                    "urlkey": "software-engineering",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18060,
+                    "name": "Hadoop",
+                    "urlkey": "hadoop",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19724,
+                    "name": "Android",
+                    "urlkey": "android",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20346,
+                    "name": "Android Development",
+                    "urlkey": "android-developers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21441,
+                    "name": "Mobile Development",
+                    "urlkey": "mobile-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 37381,
+                    "name": "Data Visualization",
+                    "urlkey": "data-visualization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 38458,
+                    "name": "Predictive Analytics",
+                    "urlkey": "predictive-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 48471,
+                    "name": "Computer programming",
+                    "urlkey": "computer-programming",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 56473,
+                    "name": "Software Architecture",
+                    "urlkey": "software-architecture",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 56555,
+                    "name": "JavaScript Libraries",
+                    "urlkey": "javascript-libraries",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 100479,
+                    "name": "Front-end Development",
+                    "urlkey": "front-end-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 101960,
+                    "name": "nodeJS",
+                    "urlkey": "nodejs",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 102811,
+                    "name": "Data Science",
+                    "urlkey": "data-science",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 106382,
+                    "name": "iOS",
+                    "urlkey": "ios",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/UberEvents/events/247549849/",
+        "visibility": "public",
+        "pro_is_email_shared": true,
+        "is_getting_full": true,
+        "percent_full": "100",
+        "hot": true,
+        "objectID": "247549849"
+    },
+    {
+        "created": 1517966799000,
+        "duration": 10800000,
+        "id": "247561363",
+        "name": "SFWT March Event",
+        "rsvp_limit": 175,
+        "status": "upcoming",
+        "time": 1520215200000,
+        "local_date": "2018-03-04",
+        "local_time": "18:00",
+        "rsvp_close_offset": "PT1H",
+        "updated": 1517966799000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 91,
+        "venue": {
+            "id": 771438,
+            "name": "Press Club",
+            "lat": 37.786563873291016,
+            "lon": -122.4048080444336,
+            "repinned": false,
+            "address_1": "757 Market Street",
+            "address_2": "20 Yerba Buena Lane,",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "phone": "(415) 744-5000",
+            "zip": "94103",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1190416991000,
+            "name": "San Francisco World Travelers",
+            "id": 700653,
+            "join_mode": "open",
+            "lat": 37.779998779296875,
+            "lon": -122.41999816894531,
+            "urlname": "sanfranciscoworldtravelers",
+            "who": "Travel addicts",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 498,
+                    "name": "Singles",
+                    "urlkey": "singles",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1998,
+                    "name": "Travel",
+                    "urlkey": "travel",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 4422,
+                    "name": "Social Networking",
+                    "urlkey": "socialnetwork",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 4446,
+                    "name": "Expat",
+                    "urlkey": "expat",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15892,
+                    "name": "Adventure",
+                    "urlkey": "adventure",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16179,
+                    "name": "International Travel",
+                    "urlkey": "international-travel",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16438,
+                    "name": "Weekend Adventures",
+                    "urlkey": "weekend-adventures",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16746,
+                    "name": "Vacations",
+                    "urlkey": "vacations",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18988,
+                    "name": "Backpacking",
+                    "urlkey": "backpacking",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 22378,
+                    "name": "Travel Overseas",
+                    "urlkey": "travel-overseas",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/sanfranciscoworldtravelers/events/247561363/",
+        "visibility": "public",
+        "is_getting_full": false,
+        "percent_full": "52",
+        "hot": true,
+        "objectID": "247561363"
+    },
+    {
+        "created": 1518037018000,
+        "duration": 10800000,
+        "id": "247589354",
+        "name": "Lifograph SF Pitch w/ SOSV Ventures ($250M), Benhamou Ventures ($80M) & Gelt VC",
+        "rsvp_limit": 100,
+        "status": "upcoming",
+        "time": 1520388000000,
+        "local_date": "2018-03-06",
+        "local_time": "18:00",
+        "updated": 1518273075000,
+        "utc_offset": -28800000,
+        "waitlist_count": 6,
+        "yes_rsvp_count": 100,
+        "venue": {
+            "id": 25591074,
+            "name": "CarVi",
+            "lat": 37.77109146118164,
+            "lon": -122.40919494628906,
+            "repinned": false,
+            "address_1": "1112 Bryant Street",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1459016426000,
+            "name": "Venture Capitalists and Angel Investors",
+            "id": 19760597,
+            "join_mode": "open",
+            "lat": 37.77000045776367,
+            "lon": -122.41000366210938,
+            "urlname": "VCs-and-angels",
+            "who": "Investors and Founders",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 17156,
+                    "name": "Venture Capital Firms",
+                    "urlkey": "venture-capital-firms",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19120,
+                    "name": "Raising Capital",
+                    "urlkey": "raising-capital",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20060,
+                    "name": "Entrepreneur Networking",
+                    "urlkey": "business-entrepreneur-networking",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 22816,
+                    "name": "Crowdfunding",
+                    "urlkey": "crowdfunding",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29000,
+                    "name": "Angel Investors",
+                    "urlkey": "angel-investors",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 38968,
+                    "name": "Venture Capital",
+                    "urlkey": "venture-capital",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 60653,
+                    "name": "Seed Capital",
+                    "urlkey": "seed-capital",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 61781,
+                    "name": "UX Design",
+                    "urlkey": "ux-design",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 62649,
+                    "name": "Seed Funding",
+                    "urlkey": "seed-funding",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 108403,
+                    "name": "Technology Startups",
+                    "urlkey": "technology-startups",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 128595,
+                    "name": "Internet Startups",
+                    "urlkey": "internet-startups",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1218672,
+                    "name": "Venture Capital and Startup",
+                    "urlkey": "venture-capital-and-startup",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/VCs-and-angels/events/247589354/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "100",
+        "hot": true,
+        "objectID": "247589354"
+    },
+    {
+        "created": 1519672992410,
+        "duration": 1800000,
+        "id": "247609264",
+        "name": "Webinar: AI and Human-Machine Interaction by Google Product Lead",
+        "status": "upcoming",
+        "time": 1519932600000,
+        "local_date": "2018-03-01",
+        "local_time": "11:30",
+        "updated": 1519672992410,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 75,
+        "group": {
+            "created": 1407864726000,
+            "name": "Product Management San Francisco",
+            "id": 16346322,
+            "join_mode": "open",
+            "lat": 37.79999923706055,
+            "lon": -122.4000015258789,
+            "urlname": "productmanagementSF",
+            "who": "Aspiring Product Managers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 2993,
+                    "name": "Product Design",
+                    "urlkey": "productdesign",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 3438,
+                    "name": "Project Management",
+                    "urlkey": "projectmgmt",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10043,
+                    "name": "Scrum",
+                    "urlkey": "scrum",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16998,
+                    "name": "Prototyping",
+                    "urlkey": "prototyping",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19243,
+                    "name": "User Experience",
+                    "urlkey": "user-experience",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21549,
+                    "name": "Agile Project Management",
+                    "urlkey": "agile-project-management",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 38660,
+                    "name": "Lean Startup",
+                    "urlkey": "lean-startup",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 42012,
+                    "name": "Product Development",
+                    "urlkey": "product-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 42278,
+                    "name": "Software Product Management",
+                    "urlkey": "software-product-management",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 61781,
+                    "name": "UX Design",
+                    "urlkey": "ux-design",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 62946,
+                    "name": "New Product Development: Software & Tech",
+                    "urlkey": "new-product-development-software-tech",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 93740,
+                    "name": "Product Management",
+                    "urlkey": "product-management",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 93741,
+                    "name": "Product Marketing",
+                    "urlkey": "product-marketing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 635622,
+                    "name": "Mobile Product Management",
+                    "urlkey": "mobile-product-management",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/productmanagementSF/events/247609264/",
+        "manual_attendance_count": 0,
+        "visibility": "public_limited",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "247609264"
+    },
+    {
+        "created": 1518110177000,
+        "duration": 5400000,
+        "id": "247618088",
+        "name": "Fender - Engineering VP on Building React Native, Serverless Mobile Apps",
+        "status": "upcoming",
+        "time": 1519785000000,
+        "local_date": "2018-02-27",
+        "local_time": "18:30",
+        "updated": 1519345721000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 109,
+        "venue": {
+            "id": 25125043,
+            "name": "AWS Pop-up Loft",
+            "lat": 37.775997161865234,
+            "lon": -122.41847229003906,
+            "repinned": false,
+            "address_1": "1446 Market Street",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94102",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1370274287000,
+            "name": "AWS San Francisco | Official Events",
+            "id": 8763012,
+            "join_mode": "open",
+            "lat": 37.79999923706055,
+            "lon": -122.4000015258789,
+            "urlname": "AWS-SANFRANCISCO",
+            "who": "AWSers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 3833,
+                    "name": "Software Development",
+                    "urlkey": "softwaredev",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15167,
+                    "name": "Cloud Computing",
+                    "urlkey": "cloud-computing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18062,
+                    "name": "Big Data",
+                    "urlkey": "big-data",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19882,
+                    "name": "Entrepreneurship",
+                    "urlkey": "entrepreneurship",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20398,
+                    "name": "Amazon Web Services",
+                    "urlkey": "amazon-web-services",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21441,
+                    "name": "Mobile Development",
+                    "urlkey": "mobile-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21681,
+                    "name": "Startup Businesses",
+                    "urlkey": "startup-businesses",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 30928,
+                    "name": "Data Analytics",
+                    "urlkey": "data-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 31197,
+                    "name": "PaaS (Platform as a Service)",
+                    "urlkey": "paas",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 58162,
+                    "name": "NoSQL",
+                    "urlkey": "nosql",
+                    "lang": "fr"
+                },
+                {
+                    "id": 87614,
+                    "name": "DevOps",
+                    "urlkey": "devops",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 107633,
+                    "name": "IaaS (Infrastructure as a Service)",
+                    "urlkey": "iaas-infrastructure-as-a-service",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 126177,
+                    "name": "Infrastructure as Code",
+                    "urlkey": "infrastructure-as-code",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1237482,
+                    "name": "AWS Programming and Tools",
+                    "urlkey": "aws-programming-and-tools",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/AWS-SANFRANCISCO/events/247618088/",
+        "visibility": "public",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "247618088"
+    },
+    {
+        "created": 1518127806000,
+        "duration": 5400000,
+        "id": "247627495",
+        "name": " Interacting with Distributed Data from R using SparkR",
+        "rsvp_limit": 275,
+        "status": "upcoming",
+        "time": 1520022600000,
+        "local_date": "2018-03-02",
+        "local_time": "12:30",
+        "updated": 1519427327000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 82,
+        "venue": {
+            "id": 12976712,
+            "name": "101 Howard St, University of San Francisco - Downtown Campus, San Francisco, CA 94105",
+            "lat": 37.79110336303711,
+            "lon": -122.39261627197266,
+            "repinned": false,
+            "address_1": "101 Howard St, University of San Francisco - Downtown Campus, San Francisco, CA 94105",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94105",
+            "state": "Ca"
+        },
+        "group": {
+            "created": 1346181795000,
+            "name": "University of San Francisco Seminar Series in Data Science",
+            "id": 4663992,
+            "join_mode": "open",
+            "lat": 37.790000915527344,
+            "lon": -122.4000015258789,
+            "urlname": "USF-Seminar-Series-in-Data-Science",
+            "who": "Data Scientists",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 18062,
+                    "name": "Big Data",
+                    "urlkey": "big-data",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29971,
+                    "name": "Machine Learning",
+                    "urlkey": "machine-learning",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 30928,
+                    "name": "Data Analytics",
+                    "urlkey": "data-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 37381,
+                    "name": "Data Visualization",
+                    "urlkey": "data-visualization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 38458,
+                    "name": "Predictive Analytics",
+                    "urlkey": "predictive-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 55324,
+                    "name": "Data Mining",
+                    "urlkey": "data-mining",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 102811,
+                    "name": "Data Science",
+                    "urlkey": "data-science",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 383411,
+                    "name": "Big Data Analytics",
+                    "urlkey": "big-data-analytics",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/USF-Seminar-Series-in-Data-Science/events/247627495/",
+        "how_to_find_us": "rooms 154-156 on the first floor",
+        "visibility": "public",
+        "is_getting_full": false,
+        "percent_full": "30",
+        "hot": true,
+        "objectID": "247627495"
+    },
+    {
+        "created": 1518205635000,
+        "duration": 9000000,
+        "id": "247656710",
+        "name": "Kolton Andrus On Designing and Deploying Internet Scale Services",
+        "rsvp_limit": 180,
+        "status": "upcoming",
+        "time": 1519871400000,
+        "local_date": "2018-02-28",
+        "local_time": "18:30",
+        "updated": 1519422686000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 142,
+        "venue": {
+            "id": 24348921,
+            "name": "Wikia",
+            "lat": 37.78268814086914,
+            "lon": -122.39834594726562,
+            "repinned": false,
+            "address_1": "360 3rd Street #750",
+            "city": "94107",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1393203829000,
+            "name": "Papers we love too",
+            "id": 13035792,
+            "join_mode": "open",
+            "lat": 37.77000045776367,
+            "lon": -122.4000015258789,
+            "urlname": "papers-we-love-too",
+            "who": "readers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 21751,
+                    "name": "Computer Science",
+                    "urlkey": "computer-science",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 93172,
+                    "name": "Academic Papers",
+                    "urlkey": "academic-papers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 132160,
+                    "name": "Computational Science and Engineering",
+                    "urlkey": "computational-science-and-engineering",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 135136,
+                    "name": "Scientific Computing",
+                    "urlkey": "scientific-computing",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/papers-we-love-too/events/247656710/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "79",
+        "hot": true,
+        "objectID": "247656710"
+    },
+    {
+        "created": 1518206312000,
+        "duration": 8100000,
+        "id": "247656964",
+        "name": "A Deep Dive into Lit: A Lightning Network Implementation",
+        "rsvp_limit": 150,
+        "status": "upcoming",
+        "time": 1519700400000,
+        "local_date": "2018-02-26",
+        "local_time": "19:00",
+        "updated": 1519511944000,
+        "utc_offset": -28800000,
+        "waitlist_count": 20,
+        "yes_rsvp_count": 150,
+        "venue": {
+            "id": 17441642,
+            "name": "DG717",
+            "lat": 37.787147521972656,
+            "lon": -122.40402221679688,
+            "repinned": false,
+            "address_1": "717 Market Street, Suite 100",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1384205669000,
+            "name": "SF Bitcoin Devs",
+            "id": 11063732,
+            "join_mode": "approval",
+            "lat": 37.77000045776367,
+            "lon": -122.41000366210938,
+            "urlname": "SF-Bitcoin-Devs",
+            "who": "Developers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 563,
+                    "name": "Open Source",
+                    "urlkey": "opensource",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 3833,
+                    "name": "Software Development",
+                    "urlkey": "softwaredev",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 70315,
+                    "name": "Virtual Currency",
+                    "urlkey": "virtual-currency",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 84681,
+                    "name": "Cryptography",
+                    "urlkey": "cryptography",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 100259,
+                    "name": "Decentralization",
+                    "urlkey": "decentralization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 139517,
+                    "name": "Bitcoin",
+                    "urlkey": "bitcoin",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 143713,
+                    "name": "Digital Currency",
+                    "urlkey": "digital-currency",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 191791,
+                    "name": "Cryptocurrency",
+                    "urlkey": "cryptocurrency",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1483532,
+                    "name": "Bitcoin Security",
+                    "urlkey": "bitcoin-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1493232,
+                    "name": "Blockchain",
+                    "urlkey": "blockchain",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/SF-Bitcoin-Devs/events/247656964/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "100",
+        "hot": true,
+        "objectID": "247656964"
+    },
+    {
+        "created": 1518547473000,
+        "duration": 9000000,
+        "id": "247776833",
+        "name": "Growth Engineering (Speakers: Credit Karma, Evernote, Pinterest)",
+        "rsvp_limit": 145,
+        "status": "upcoming",
+        "time": 1520389800000,
+        "local_date": "2018-03-06",
+        "local_time": "18:30",
+        "updated": 1519248383000,
+        "utc_offset": -28800000,
+        "waitlist_count": 24,
+        "yes_rsvp_count": 145,
+        "venue": {
+            "id": 24154977,
+            "name": "Credit Karma",
+            "lat": 37.78571701049805,
+            "lon": -122.40591430664062,
+            "repinned": false,
+            "address_1": "Market & 4th",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1402440529000,
+            "name": "SF Growth Engineering Meetup",
+            "id": 15010542,
+            "join_mode": "open",
+            "lat": 37.77000045776367,
+            "lon": -122.41000366210938,
+            "urlname": "Growth-Engineering",
+            "who": "Growth Engineers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 16325,
+                    "name": "Software Engineering",
+                    "urlkey": "software-engineering",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20346,
+                    "name": "Android Development",
+                    "urlkey": "android-developers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21681,
+                    "name": "Startup Businesses",
+                    "urlkey": "startup-businesses",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21750,
+                    "name": "Engineering",
+                    "urlkey": "engineering",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 38660,
+                    "name": "Lean Startup",
+                    "urlkey": "lean-startup",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 127567,
+                    "name": "iOS Development",
+                    "urlkey": "ios-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 134917,
+                    "name": "Customer Acquisition",
+                    "urlkey": "customer-acquisition",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 437372,
+                    "name": "Lean Marketing",
+                    "urlkey": "lean-marketing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 472792,
+                    "name": "Software Engineers",
+                    "urlkey": "software-engineers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 827502,
+                    "name": "Customer Retention",
+                    "urlkey": "customer-retention",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1277602,
+                    "name": "Growth Hacking",
+                    "urlkey": "growth-hacking",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/Growth-Engineering/events/247776833/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "100",
+        "hot": true,
+        "objectID": "247776833"
+    },
+    {
+        "created": 1518646545000,
+        "duration": 7200000,
+        "id": "247816216",
+        "name": "Meetup at Doordash: Preact-Cli + Build Tooling and Productivity",
+        "rsvp_limit": 300,
+        "status": "upcoming",
+        "time": 1519783200000,
+        "local_date": "2018-02-27",
+        "local_time": "18:00",
+        "updated": 1519670612000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 125,
+        "venue": {
+            "id": 25569399,
+            "name": "Doordash",
+            "lat": 37.7834358215332,
+            "lon": -122.40803527832031,
+            "repinned": false,
+            "address_1": "901 Market Street Suite 600",
+            "city": "San Francisco",
+            "country": "US",
+            "localized_country_name": "USA"
+        },
+        "group": {
+            "created": 1205357247000,
+            "name": "The SF JavaScript Meetup",
+            "id": 1060260,
+            "join_mode": "open",
+            "lat": 37.790000915527344,
+            "lon": -122.41000366210938,
+            "urlname": "jsmeetup",
+            "who": "JS Hackers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 3833,
+                    "name": "Software Development",
+                    "urlkey": "softwaredev",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 7029,
+                    "name": "JavaScript",
+                    "urlkey": "javascript",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 9696,
+                    "name": "New Technology",
+                    "urlkey": "newtech",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 9886,
+                    "name": "Rich Internet Applications",
+                    "urlkey": "ria",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10209,
+                    "name": "Web Technology",
+                    "urlkey": "web",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10579,
+                    "name": "Technology",
+                    "urlkey": "technology",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15582,
+                    "name": "Web Development",
+                    "urlkey": "web-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16137,
+                    "name": "JQuery",
+                    "urlkey": "jquery",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19882,
+                    "name": "Entrepreneurship",
+                    "urlkey": "entrepreneurship",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 48471,
+                    "name": "Computer programming",
+                    "urlkey": "computer-programming",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 78565,
+                    "name": "HTML5",
+                    "urlkey": "html5",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 100479,
+                    "name": "Front-end Development",
+                    "urlkey": "front-end-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 101960,
+                    "name": "nodeJS",
+                    "urlkey": "nodejs",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 405512,
+                    "name": "Backbone.js",
+                    "urlkey": "backbone-js",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/jsmeetup/events/247816216/",
+        "visibility": "public",
+        "is_getting_full": false,
+        "percent_full": "42",
+        "hot": true,
+        "objectID": "247816216"
+    },
+    {
+        "created": 1518979333000,
+        "duration": 10800000,
+        "id": "247932931",
+        "name": "Secrets of Silicon Valley Revealed - w/ Managing Director at Threshold Ventures",
+        "rsvp_limit": 100,
+        "status": "upcoming",
+        "time": 1519869600000,
+        "local_date": "2018-02-28",
+        "local_time": "18:00",
+        "updated": 1518997455000,
+        "utc_offset": -28800000,
+        "waitlist_count": 8,
+        "yes_rsvp_count": 100,
+        "venue": {
+            "id": 24773158,
+            "name": "Procopio",
+            "lat": 0,
+            "lon": 0,
+            "repinned": false,
+            "address_1": "1117 California Ave",
+            "city": "Palo Alto",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1459016426000,
+            "name": "Venture Capitalists and Angel Investors",
+            "id": 19760597,
+            "join_mode": "open",
+            "lat": 37.77000045776367,
+            "lon": -122.41000366210938,
+            "urlname": "VCs-and-angels",
+            "who": "Investors and Founders",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 17156,
+                    "name": "Venture Capital Firms",
+                    "urlkey": "venture-capital-firms",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19120,
+                    "name": "Raising Capital",
+                    "urlkey": "raising-capital",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20060,
+                    "name": "Entrepreneur Networking",
+                    "urlkey": "business-entrepreneur-networking",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 22816,
+                    "name": "Crowdfunding",
+                    "urlkey": "crowdfunding",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29000,
+                    "name": "Angel Investors",
+                    "urlkey": "angel-investors",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 38968,
+                    "name": "Venture Capital",
+                    "urlkey": "venture-capital",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 60653,
+                    "name": "Seed Capital",
+                    "urlkey": "seed-capital",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 61781,
+                    "name": "UX Design",
+                    "urlkey": "ux-design",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 62649,
+                    "name": "Seed Funding",
+                    "urlkey": "seed-funding",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 108403,
+                    "name": "Technology Startups",
+                    "urlkey": "technology-startups",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 128595,
+                    "name": "Internet Startups",
+                    "urlkey": "internet-startups",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1218672,
+                    "name": "Venture Capital and Startup",
+                    "urlkey": "venture-capital-and-startup",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/VCs-and-angels/events/247932931/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "100",
+        "hot": true,
+        "objectID": "247932931"
+    },
+    {
+        "created": 1519169272000,
+        "duration": 7200000,
+        "id": "248003611",
+        "name": " [SF Meetup] \"gRPC vs REST\" and \"Conduit Service Mesh\" ",
+        "rsvp_limit": 75,
+        "status": "upcoming",
+        "time": 1519956000000,
+        "local_date": "2018-03-01",
+        "local_time": "18:00",
+        "updated": 1519425232000,
+        "utc_offset": -28800000,
+        "waitlist_count": 2,
+        "yes_rsvp_count": 75,
+        "venue": {
+            "id": 25740964,
+            "name": "Buoyant ",
+            "lat": 37.78717803955078,
+            "lon": -122.40357971191406,
+            "repinned": false,
+            "address_1": "703 Market Street, 12th Floor ",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94103",
+            "state": "ca"
+        },
+        "group": {
+            "created": 1468299200000,
+            "name": "Microservices, APIs and Integration - Silicon Valley",
+            "id": 20174296,
+            "join_mode": "open",
+            "lat": 37.38999938964844,
+            "lon": -122.06999969482422,
+            "urlname": "microservices-apis-integration-meetup",
+            "who": "Members",
+            "localized_location": "Mountain View, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 563,
+                    "name": "Open Source",
+                    "urlkey": "opensource",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 3833,
+                    "name": "Software Development",
+                    "urlkey": "softwaredev",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15167,
+                    "name": "Cloud Computing",
+                    "urlkey": "cloud-computing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16216,
+                    "name": "Mobile Technology",
+                    "urlkey": "mobile-technology",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18062,
+                    "name": "Big Data",
+                    "urlkey": "big-data",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21441,
+                    "name": "Mobile Development",
+                    "urlkey": "mobile-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29971,
+                    "name": "Machine Learning",
+                    "urlkey": "machine-learning",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 30928,
+                    "name": "Data Analytics",
+                    "urlkey": "data-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 31197,
+                    "name": "PaaS (Platform as a Service)",
+                    "urlkey": "paas",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 32743,
+                    "name": "Information Security",
+                    "urlkey": "information-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 67565,
+                    "name": "Software Security",
+                    "urlkey": "software-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 80749,
+                    "name": "APIs",
+                    "urlkey": "apis",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 85496,
+                    "name": "Enterprise Integration",
+                    "urlkey": "enterprise-integration",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 87614,
+                    "name": "DevOps",
+                    "urlkey": "devops",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1504699,
+                    "name": "Microservices",
+                    "urlkey": "microservices",
+                    "lang": "de"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/microservices-apis-integration-meetup/events/248003611/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "100",
+        "hot": true,
+        "objectID": "248003611"
+    },
+    {
+        "created": 1519196573000,
+        "duration": 10800000,
+        "id": "248015635",
+        "name": "Taming Large Scale Deep Learning",
+        "status": "upcoming",
+        "time": 1519956000000,
+        "local_date": "2018-03-01",
+        "local_time": "18:00",
+        "updated": 1519196652000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 166,
+        "venue": {
+            "id": 23750676,
+            "name": "Nitro",
+            "lat": 37.79084014892578,
+            "lon": -122.40116119384766,
+            "repinned": false,
+            "address_1": "225 Bush St, 7th Floor",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1420804137000,
+            "name": "Bay Area AI",
+            "id": 18315941,
+            "join_mode": "open",
+            "lat": 37.790000915527344,
+            "lon": -122.4000015258789,
+            "urlname": "bay-area-ai",
+            "who": "minds",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 456,
+                    "name": "Artificial Intelligence",
+                    "urlkey": "ai",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1372,
+                    "name": "Semantic Web",
+                    "urlkey": "semweb",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18062,
+                    "name": "Big Data",
+                    "urlkey": "big-data",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 22034,
+                    "name": "Enterprise Search",
+                    "urlkey": "enterprise-search",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 24553,
+                    "name": "Natural Language Processing",
+                    "urlkey": "natural-language-processing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29971,
+                    "name": "Machine Learning",
+                    "urlkey": "machine-learning",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29972,
+                    "name": "Text Analytics",
+                    "urlkey": "text-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 37381,
+                    "name": "Data Visualization",
+                    "urlkey": "data-visualization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 55324,
+                    "name": "Data Mining",
+                    "urlkey": "data-mining",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 102811,
+                    "name": "Data Science",
+                    "urlkey": "data-science",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 105317,
+                    "name": "Search Engines",
+                    "urlkey": "search-engines",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 227861,
+                    "name": "information Retrieval",
+                    "urlkey": "information-retrieval",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1506561,
+                    "name": "Autonomous Vehicles",
+                    "urlkey": "autonomous-vehicles",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1506562,
+                    "name": "Self-Driving Vehicles",
+                    "urlkey": "self-driving-vehicles",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1511135,
+                    "name": "Self-Driving Cars",
+                    "urlkey": "self-driving-cars",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/bay-area-ai/events/248015635/",
+        "visibility": "public",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "248015635"
+    },
+    {
+        "created": 1519349311000,
+        "duration": 9000000,
+        "id": "248079537",
+        "name": "GeoViz and data driven decisions",
+        "status": "upcoming",
+        "time": 1520301600000,
+        "local_date": "2018-03-05",
+        "local_time": "18:00",
+        "updated": 1519494030000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 98,
+        "venue": {
+            "id": 25529879,
+            "name": "Lyft HQ",
+            "lat": 37.776546478271484,
+            "lon": -122.3919677734375,
+            "repinned": false,
+            "address_1": "185 Berry Street",
+            "city": "San Francisco",
+            "country": "US",
+            "localized_country_name": "USA"
+        },
+        "group": {
+            "created": 1421705588000,
+            "name": "SF Big Analytics",
+            "id": 18354966,
+            "join_mode": "open",
+            "lat": 37.75,
+            "lon": -122.41999816894531,
+            "urlname": "SF-Big-Analytics",
+            "who": "Members",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 18060,
+                    "name": "Hadoop",
+                    "urlkey": "hadoop",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18062,
+                    "name": "Big Data",
+                    "urlkey": "big-data",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29971,
+                    "name": "Machine Learning",
+                    "urlkey": "machine-learning",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29972,
+                    "name": "Text Analytics",
+                    "urlkey": "text-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 30928,
+                    "name": "Data Analytics",
+                    "urlkey": "data-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 37381,
+                    "name": "Data Visualization",
+                    "urlkey": "data-visualization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 38458,
+                    "name": "Predictive Analytics",
+                    "urlkey": "predictive-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 55324,
+                    "name": "Data Mining",
+                    "urlkey": "data-mining",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 98842,
+                    "name": "Business Analytics",
+                    "urlkey": "business-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 102811,
+                    "name": "Data Science",
+                    "urlkey": "data-science",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 158166,
+                    "name": "Advanced Analytics",
+                    "urlkey": "advanced-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 383411,
+                    "name": "Big Data Analytics",
+                    "urlkey": "big-data-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 631142,
+                    "name": "Cloud Analytics",
+                    "urlkey": "cloud-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1471442,
+                    "name": "Apache Spark",
+                    "urlkey": "apache-spark",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/SF-Big-Analytics/events/248079537/",
+        "visibility": "public",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "248079537"
+    },
+    {
+        "created": 1470265908000,
+        "duration": 9000000,
+        "id": "zsftwlyxdbkc",
+        "name": "Bitcoin at El Rio - End of Month Edition",
+        "rsvp_limit": 350,
+        "status": "upcoming",
+        "time": 1519785000000,
+        "local_date": "2018-02-27",
+        "local_time": "18:30",
+        "updated": 1519436090000,
+        "utc_offset": -28800000,
+        "waitlist_count": 36,
+        "yes_rsvp_count": 350,
+        "venue": {
+            "id": 635235,
+            "name": "El Rio",
+            "lat": 37.74681854248047,
+            "lon": -122.41946411132812,
+            "repinned": false,
+            "address_1": "3158 Mission St",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "phone": "(415) 282-3325",
+            "zip": "94110",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1315096788000,
+            "name": "San Francisco Bitcoin Meetup",
+            "id": 2432842,
+            "join_mode": "open",
+            "lat": 37.77000045776367,
+            "lon": -122.41000366210938,
+            "urlname": "San-Francisco-Bitcoin-Social",
+            "who": "Members",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 9696,
+                    "name": "New Technology",
+                    "urlkey": "newtech",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16546,
+                    "name": "International Politics",
+                    "urlkey": "international-politics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21751,
+                    "name": "Computer Science",
+                    "urlkey": "computer-science",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 22467,
+                    "name": "Finance",
+                    "urlkey": "finance",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 84681,
+                    "name": "Cryptography",
+                    "urlkey": "cryptography",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 139517,
+                    "name": "Bitcoin",
+                    "urlkey": "bitcoin",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/San-Francisco-Bitcoin-Social/events/244527644/",
+        "how_to_find_us": "Find us at the table in the back to get access to the bar tab and have free drinks!",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "100",
+        "hot": true,
+        "objectID": "zsftwlyxdbkc"
+    },
+    {
+        "created": 1517968639000,
+        "duration": 7200000,
+        "id": "jxhqhpyxdblc",
+        "name": "Serverless Meetup at Heavybit",
+        "rsvp_limit": 150,
+        "status": "upcoming",
+        "time": 1519869600000,
+        "local_date": "2018-02-28",
+        "local_time": "18:00",
+        "updated": 1518510665000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 122,
+        "venue": {
+            "id": 14133182,
+            "name": "Heavybit Industries Inc",
+            "lat": 37.77345275878906,
+            "lon": -122.4110336303711,
+            "repinned": false,
+            "address_1": "325 9th Street",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94103",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1451984479000,
+            "name": "Serverless",
+            "id": 19281439,
+            "join_mode": "open",
+            "lat": 37.779998779296875,
+            "lon": -122.41999816894531,
+            "urlname": "Serverless",
+            "who": "Members",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 189,
+                    "name": "Java",
+                    "urlkey": "java",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 563,
+                    "name": "Open Source",
+                    "urlkey": "opensource",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1064,
+                    "name": "Python",
+                    "urlkey": "python",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 3833,
+                    "name": "Software Development",
+                    "urlkey": "softwaredev",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 7029,
+                    "name": "JavaScript",
+                    "urlkey": "javascript",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10209,
+                    "name": "Web Technology",
+                    "urlkey": "web",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15167,
+                    "name": "Cloud Computing",
+                    "urlkey": "cloud-computing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15582,
+                    "name": "Web Development",
+                    "urlkey": "web-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20398,
+                    "name": "Amazon Web Services",
+                    "urlkey": "amazon-web-services",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 24410,
+                    "name": "High Scalability Computing",
+                    "urlkey": "high-scalability-computing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 33089,
+                    "name": "SaaS (Software as a Service)",
+                    "urlkey": "saas-software-as-a-service",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 85951,
+                    "name": "JavaScript Frameworks",
+                    "urlkey": "javascript-frameworks",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 87614,
+                    "name": "DevOps",
+                    "urlkey": "devops",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 101960,
+                    "name": "nodeJS",
+                    "urlkey": "nodejs",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/Serverless/events/247561937/",
+        "visibility": "public",
+        "pro_is_email_shared": true,
+        "is_getting_full": true,
+        "percent_full": "81",
+        "hot": true,
+        "objectID": "jxhqhpyxdblc"
+    },
+    {
+        "link": "https://www.meetup.com/SanFranciscoHostel/events/82926222/",
+        "visibility": "public_limited",
+        "group": {
+            "created": 1241804081000,
+            "name": "**Mingle with Travelers, Students, Au Pairs & Locals in SF**",
+            "id": 1452693,
+            "join_mode": "open",
+            "lat": 37.79999923706055,
+            "lon": -122.41000366210938,
+            "urlname": "SanFranciscoHostel",
+            "who": "International Partiers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 498,
+                    "name": "Singles",
+                    "urlkey": "singles",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1273,
+                    "name": "New In Town",
+                    "urlkey": "newintown",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1652,
+                    "name": "Nannies and Au Pairs",
+                    "urlkey": "nanny",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1998,
+                    "name": "Travel",
+                    "urlkey": "travel",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 3451,
+                    "name": "International and Exchange Students",
+                    "urlkey": "exchangestud",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 4392,
+                    "name": "Nightlife",
+                    "urlkey": "nightlife",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 4422,
+                    "name": "Social Networking",
+                    "urlkey": "socialnetwork",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10581,
+                    "name": "Social",
+                    "urlkey": "social",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15892,
+                    "name": "Adventure",
+                    "urlkey": "adventure",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16179,
+                    "name": "International Travel",
+                    "urlkey": "international-travel",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18988,
+                    "name": "Backpacking",
+                    "urlkey": "backpacking",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20246,
+                    "name": "Dating and Relationships",
+                    "urlkey": "dating-and-relationships",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 21500,
+                    "name": "San Francisco",
+                    "urlkey": "san-francisco",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 67622,
+                    "name": "Culture Exchange",
+                    "urlkey": "culture-exchange",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 121570,
+                    "name": "Nanny Group for Socializing and Friendship",
+                    "urlkey": "nanny-group-for-socializing-and-friendship",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "waitlist_count": 0,
+        "yes_rsvp_count": 913,
+        "duration": 35100000,
+        "time": 1519880400000,
+        "utc_offset": -28800000,
+        "name": "Pub Crawl w/International Travelers",
+        "id": "qpqvxjyskbdb",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "qpqvxjyskbdb"
+    },
+    {
+        "created": 1489083142000,
+        "duration": 10800000,
+        "id": "jxvtsmyxfbcb",
+        "name": "The Bay Area Clojure User Group SF Meetup",
+        "status": "upcoming",
+        "time": 1519956000000,
+        "local_date": "2018-03-01",
+        "local_time": "18:00",
+        "updated": 1517620617000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 74,
+        "venue": {
+            "id": 23524984,
+            "name": "Funding Circle US",
+            "lat": 37.79813766479492,
+            "lon": -122.3997802734375,
+            "repinned": false,
+            "address_1": "747 Front St., 4th floor",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1231438253000,
+            "name": "The Bay Area Clojure User Group",
+            "id": 1352976,
+            "join_mode": "open",
+            "lat": 37.75,
+            "lon": -122.41999816894531,
+            "urlname": "The-Bay-Area-Clojure-User-Group",
+            "who": "Clojeurs",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 2400,
+                    "name": "Lisp & Scheme",
+                    "urlkey": "lisp",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 17628,
+                    "name": "Programming Languages",
+                    "urlkey": "programming-languages",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 22792,
+                    "name": "Functional Programming",
+                    "urlkey": "functional-programming",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29661,
+                    "name": "Clojure",
+                    "urlkey": "clojure",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 107750,
+                    "name": "JVM Languages",
+                    "urlkey": "jvm-languages",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 107751,
+                    "name": "Concurrent Programming",
+                    "urlkey": "concurrent-programming",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 832902,
+                    "name": "ClojureScript",
+                    "urlkey": "clojurescript",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/The-Bay-Area-Clojure-User-Group/events/244819771/",
+        "how_to_find_us": "Please dial 4 on the intercom and push the green button to be let in. You will be greeted and directed to the main kitchen for the meetup.",
+        "visibility": "public",
+        "is_getting_full": false,
+        "hot": true,
+        "objectID": "jxvtsmyxfbcb"
+    },
+    {
+        "created": 1489077425000,
+        "duration": 9000000,
+        "id": "mxstsmyxfbcb",
+        "name": "March SFNode Meetup at Brigade",
+        "rsvp_limit": 150,
+        "status": "upcoming",
+        "time": 1519957800000,
+        "local_date": "2018-03-01",
+        "local_time": "18:30",
+        "updated": 1518790446000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 147,
+        "venue": {
+            "id": 25233950,
+            "name": "Brigade",
+            "lat": 37.78086471557617,
+            "lon": -122.39549255371094,
+            "repinned": false,
+            "address_1": "524 3rd St",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1410401733000,
+            "name": "SFNode",
+            "id": 16927002,
+            "join_mode": "open",
+            "lat": 37.77000045776367,
+            "lon": -122.4000015258789,
+            "urlname": "sfnode",
+            "who": "Node Users",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 563,
+                    "name": "Open Source",
+                    "urlkey": "opensource",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 7029,
+                    "name": "JavaScript",
+                    "urlkey": "javascript",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 78565,
+                    "name": "HTML5",
+                    "urlkey": "html5",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 85951,
+                    "name": "JavaScript Frameworks",
+                    "urlkey": "javascript-frameworks",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 101960,
+                    "name": "nodeJS",
+                    "urlkey": "nodejs",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/sfnode/events/244886987/",
+        "visibility": "public",
+        "is_getting_full": true,
+        "percent_full": "98",
+        "hot": true,
+        "objectID": "mxstsmyxfbcb"
+    },
+    {
+        "created": 1516990142000,
+        "duration": 7200000,
+        "id": "rgprgpyxfbdb",
+        "name": "March TGIF",
+        "rsvp_limit": 150,
+        "status": "upcoming",
+        "time": 1520042400000,
+        "local_date": "2018-03-02",
+        "local_time": "18:00",
+        "updated": 1516990199000,
+        "utc_offset": -28800000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 88,
+        "venue": {
+            "id": 698490,
+            "name": "Hyatt Regency ",
+            "lat": 37.79835510253906,
+            "lon": -122.39706420898438,
+            "repinned": false,
+            "address_1": "The Embarcadero",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94607",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1477426210000,
+            "name": "MAX SF | A social group for gay men and their friends.",
+            "id": 20904957,
+            "join_mode": "open",
+            "lat": 37.779998779296875,
+            "lon": -122.41999816894531,
+            "urlname": "MAXSanFrancisco",
+            "who": "Members",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "topics": [
+                {
+                    "id": 447,
+                    "name": "Gay",
+                    "urlkey": "gay",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 4270,
+                    "name": "Gay Professionals",
+                    "urlkey": "gaypros",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 4605,
+                    "name": "Gay Couples",
+                    "urlkey": "gaycouples",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15196,
+                    "name": "Gay Singles",
+                    "urlkey": "gay-singles",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 17665,
+                    "name": "LGBT Social Group",
+                    "urlkey": "lgbt-social-group",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19558,
+                    "name": "Gay Men",
+                    "urlkey": "gay-men",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19753,
+                    "name": "Gay Men of Color",
+                    "urlkey": "gay-men-of-color",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 28687,
+                    "name": "Gay Friends",
+                    "urlkey": "gay-friends",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 55541,
+                    "name": "Gay Male Social Group",
+                    "urlkey": "gay-male-social-group",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 88959,
+                    "name": "Gay Single Men",
+                    "urlkey": "gay-single-men",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 137753,
+                    "name": "Gay Men's Social Group",
+                    "urlkey": "gay-mens-social-group",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 138200,
+                    "name": "single gay men",
+                    "urlkey": "single-gay-men",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 163264,
+                    "name": "Professional Bi & Gay Men",
+                    "urlkey": "professional-bi-gay-men",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1512279,
+                    "name": "Young Gay Professional Men",
+                    "urlkey": "young-gay-professional-men",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/MAXSanFrancisco/events/247193493/",
+        "visibility": "public",
+        "is_getting_full": false,
+        "percent_full": "59",
+        "hot": true,
+        "objectID": "rgprgpyxfbdb"
+    }
+]

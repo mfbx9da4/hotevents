@@ -1,0 +1,72 @@
+<!doctype html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.css">
+  <!-- Always use `2.x` versions in evention rather than `2` to mitigate any side effects on your website,
+  Find the latest version on InstantSearch.js website: https://community.algolia.com/instantsearch.js/v2/guides/usage.html -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+       <input id="search-input" placeholder="Search for events">
+       <div id="hits-per-page-selector"></div>
+    </div>
+  </header>
+  <main>
+      <div id="hits"></div>
+      <div id="pagination"></div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
+
+  <!-- Add this to your HTML document -->
+  <script type="text/html" id="hit-template">
+    <div class="hit">
+      <div class="hit-content">
+        <h3 class="hit-name">
+          <a href="{{link}}" target="_blank">{{{_highlightResult.name.value}}}</a> {{#group.topics}}
+            <div style='display: inline-block; font-size: 8px; font-weight: lighter; padding: 2px;
+            background: #efefef;'>{{name}}</div>
+            {{/group.topics}}
+          <div>
+          </div>
+          <p>{{yes_rsvp_count}} going{{#percent_full}}, {{percent_full}}% capacity {{/percent_full}}</p>
+        </h3>
+      </div>
+    </div>
+  </script>
+
+  <script>
+    var search = instantsearch({
+      // Replace with your own values
+      appId: '8AOQAW9EZA',
+      apiKey: '8caaee2531c0957918fc460b01e2acbb', // search only API key, no ADMIN key
+      indexName: 'sf-events',
+      urlSync: true,
+      searchParameters: {
+        hitsPerPage: 500
+      }
+    });
+    // search.setQueryParameter('hitsPerPage', 5)
+    // search.setHitsPerPage(500)
+    search.addWidget(
+      instantsearch.widgets.searchBox({
+        container: '#search-input'
+      })
+    );
+
+    // Add this after the other search.addWidget() calls
+    search.addWidget(
+      instantsearch.widgets.infiniteHits({
+        container: '#pagination',
+        templates: {
+            empty: 'No results',
+            item: document.getElementById('hit-template').innerHTML,
+          },
+          hitsPerPage: 1000
+      })
+    );
+    // Add this after all the search.addWidget() calls
+    search.start();
+  </script>
+</body>
