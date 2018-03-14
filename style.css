@@ -4,4 +4,53 @@
 
 html, body {
   font-family: sans-serif;
+  color: rgba(0,0,0,.87);
+  color: #222;
+  line-height: 1.2;
+}
+
+em {
+  background: yellow;
+}
+
+
+.profile-img {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2000;
+
+  width: 130px;
+  height: 130px;
+
+  background-image: url(http://davidalbertoadler.com/assets/img/chaordic-hover-profile.png);
+  background-size: 100%;
+  cursor: pointer;
+
+}
+.profile-img:hover, .profile-img.hover {
+  background-position: 0 100%;
+}
+
+.hover-message {
+  position: fixed;
+  bottom: 40px;
+  right: 121px;
+  z-index: 2;
+}
+
+.hit:hover {
+  background-color: rgba(0,0,0,.05);
+}
+
+.bg_color1 {
+  background-color: rgba(0,0,0,.02);
+}
+
+.hit-content {
+  clear: both;
+}
+
+.lighter {
+  color: rgba(0,0,0,.54);
 }

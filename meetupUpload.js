@@ -1,19 +1,35 @@
 var algoliasearch = require('algoliasearch');
+var config = require('config');
+const chunk = require('lodash.chunk')
+const records = require('./hot-sf.json')
 
-const client = algoliasearch('8AOQAW9EZA', '71f20daab287dc303ab79c66c8f1a0b0');
+const client = algoliasearch(config.get('algolia.app_id'), config.get('algolia.admin_api_key'));
 const index = client.initIndex('sf-events');
 
-// index.deleteByQuery('', function(err) {
-//   if (!err) {
-//     console.log('success');
-//   }
-// });
+const params = {
+  filters: `time < ${Date.now()}`
+}
+index.deleteBy(params, function(err, res) {
+  if (err) {
+    console.info(err)
+  } else {
+    console.log('Success Deleted Stale', res)
+  }
+})
 
-const chunk = require('lodash.chunk')
-const records = require('./hot-sf.json');
+function deleteAll (index) {
+  index.deleteByQuery('', function(err, res) {
+    if (err) {
+      console.info(err)
+    } else {
+      console.log('Success Deleted All', res)
+    }
+  })
+}
 
-const chunks = chunk(records, 1000);
+// deleteAll(index)
+const chunks = chunk(records, 1000)
 
 chunks.map(function(batch) {
-  return index.addObjects(batch);
-});
+  return index.addObjects(batch)
+})

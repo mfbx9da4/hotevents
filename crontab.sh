@@ -1,0 +1,1 @@
+/Users/da/.nvm/versions/node/v8.9.4/bin/node /Users/da/code/misc/meetup-hot/meetup.js && /Users/da/.nvm/versions/node/v8.9.4/bin/node /Users/da/code/misc/meetup-hot/meetupUpload.js 2>&1 > /Users/da/code/misc/meetup-hot/crontab.log

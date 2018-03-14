@@ -1,14 +1,25 @@
 <!doctype html>
+<html amp lang="en">>
 <head>
   <meta charset="UTF-8">
+  <title>SF Hot Events</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.css">
   <!-- Always use `2.x` versions in evention rather than `2` to mitigate any side effects on your website,
   Find the latest version on InstantSearch.js website: https://community.algolia.com/instantsearch.js/v2/guides/usage.html -->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <body>
   <header>
     <div>
+      <p>The <a href="http://meetup.com">meetup.com</a> API is used to find a list of events in San Francisco proper which are almost full or are very popular. The list is intended so you don't miss the boat on early bird tickets.</p>
        <input id="search-input" placeholder="Search for events">
        <div id="hits-per-page-selector"></div>
     </div>
@@ -17,25 +28,44 @@
       <div id="hits"></div>
       <div id="pagination"></div>
   </main>
+  <footer>
+    <a target='_blank' href="http://davidalbertoadler.com/about"><div class="profile-img"></div>
+    <div class="hover-message">Hire me!</div></a>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
 
   <!-- Add this to your HTML document -->
   <script type="text/html" id="hit-template">
-    <div class="hit">
+    <div class="hit {{#bg_color1}}bg_color1{{/bg_color1}}">
       <div class="hit-content">
-        <h3 class="hit-name">
-          <a href="{{link}}" target="_blank">{{{_highlightResult.name.value}}}</a> {{#group.topics}}
-            <div style='display: inline-block; font-size: 8px; font-weight: lighter; padding: 2px;
-            background: #efefef;'>{{name}}</div>
-            {{/group.topics}}
+        <div class="hit-name">
+          <a href="{{link}}" target="_blank">
+            <b>{{{_highlightResult.name.value}}}</b>
+          </a>
+          <!--
+          <span>{{local_date}} {{local_time}}</span>
+          <span>{{yes_rsvp_count}} going{{#percent_full}}, {{percent_full}}% capacity {{/percent_full}}</span>
+          -->
+
+          <!-- Date -->
+          <div style='display: inline-block; float: right; font-weight: lighter; color: #666;'>{{local_date}} {{local_time}}</div>
+          <div style='display: inline-block; float: right; font-weight: lighter; color: #666; margin-right: 10px;'>{{#percent_full}}{{percent_full}}% capacity, {{/percent_full}} {{yes_rsvp_count}} going</div>
+
+            <div style='display: inline-block; font-weight: lighter; padding: 2px'>{{#is_paid}} 💵 Paid{{/is_paid}}{{#fee.amount}} 💵 {{fee.currency}}{{fee.amount}}{{/fee.amount}} {{#eventbrite_link}} <a target="_blank" href="{{eventbrite_link}}"><img src="https://flowdocs.built.io/assets/blt174abb009294acc4/Eventbrite-128.png" height="14px"> Eventbrite</a>{{/eventbrite_link}}
+            </div>
+
+          {{#_highlightResult.group.topics}}
+            <div style='display: none; font-size: 8px; font-weight: lighter; padding: 2px;
+            background: #efefef;'>{{{name.value}}}</div>
+            {{/_highlightResult.group.topics}}
           <div>
           </div>
-          <p>{{yes_rsvp_count}} going{{#percent_full}}, {{percent_full}}% capacity {{/percent_full}}</p>
-        </h3>
+        </div>
       </div>
     </div>
   </script>
 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js'></script>
   <script>
     var search = instantsearch({
       // Replace with your own values
@@ -47,26 +77,66 @@
         hitsPerPage: 500
       }
     });
-    // search.setQueryParameter('hitsPerPage', 5)
-    // search.setHitsPerPage(500)
+
+    search.templatesConfig.helpers.makeTitle = function (text, render) {
+      return '<h1>' + render(text) + '</h1>';
+    };
+
     search.addWidget(
       instantsearch.widgets.searchBox({
         container: '#search-input'
       })
     );
 
+    var today_local_date = moment().format('YYYY-MM-DD')
+    var prev = ''
+    var apply_bg_color1 = false
+
     // Add this after the other search.addWidget() calls
     search.addWidget(
       instantsearch.widgets.infiniteHits({
         container: '#pagination',
         templates: {
-            empty: 'No results',
-            item: document.getElementById('hit-template').innerHTML,
-          },
-          hitsPerPage: 1000
+          empty: 'No results',
+          item: document.getElementById('hit-template').innerHTML,
+        },
+        transformData: {
+          item: function(hit) {
+            if (hit.local_date !== prev) {
+              apply_bg_color1 = !apply_bg_color1
+            }
+            hit.bg_color1 = apply_bg_color1
+            prev = hit.local_date
+
+            if (hit.fee) {
+              if (hit.fee.currency === 'USD') {
+                hit.fee.currency = '$'
+              }
+              if (hit.fee.amount) {
+                hit.is_paid = false
+              }
+            }
+
+            return hit;
+          }
+        },
+        hitsPerPage: 1000
       })
     );
     // Add this after all the search.addWidget() calls
     search.start();
+
+    /*===========================================
+    =            David Adler CV Plug            =
+    ===========================================*/
+
+
+      document.addEventListener("DOMContentLoaded", function() {
+
+      });
+
+
+    /*=====  End of David Adler CV Plug  ======*/
   </script>
 </body>
+</html>

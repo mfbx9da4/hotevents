@@ -10,8 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "algoliasearch": "^3.24.11",
+    "aws-sdk": "^2.209.0",
     "bluebird": "^3.5.1",
     "config": "^1.29.4",
+    "get-urls": "^7.2.0",
     "isomorphic-fetch": "^2.2.1",
     "js-yaml": "^3.10.0",
     "lodash": "^4.17.5",
