@@ -1,0 +1,9 @@
+redis:
+  port: 6379
+  host: localhost
+
+fetch_cache:
+  expiration: 604800 # pages expire in one week
+
+save_to_disk: false
+
