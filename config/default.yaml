@@ -7,6 +7,13 @@ fetch_cache:
 
 save_to_disk: false
 
+meetup:
+  api_key: asdf
+
+algolia:
+  app_id: asdf
+  admin_api_key: asdf
+
 aws:
   accessKeyId: asdf
   secretAccessKey: asdf
