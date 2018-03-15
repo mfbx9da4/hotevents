@@ -1,8 +1,8 @@
+// Origin http://aws-website-sfhotevents-rtg2c.s3-website-us-east-1.amazonaws.com/
+
 var AWS = require('aws-sdk'),
     fs = require('fs');
 var config = require('config');
-
-// For dev purposes only
 AWS.config.update({ accessKeyId: config.get('aws.accessKeyId'), secretAccessKey: config.get('aws.secretAccessKey') });
 var s3 = new AWS.S3();
 

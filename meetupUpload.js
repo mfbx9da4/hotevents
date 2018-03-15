@@ -6,6 +6,8 @@ const records = require('./hot-sf.json')
 const client = algoliasearch(config.get('algolia.app_id'), config.get('algolia.admin_api_key'));
 const index = client.initIndex('sf-events');
 
+console.info('Reindex');
+
 const params = {
   filters: `time < ${Date.now()}`
 }
@@ -30,6 +32,7 @@ function deleteAll (index) {
 // deleteAll(index)
 const chunks = chunk(records, 1000)
 
-chunks.map(function(batch) {
+chunks.map(function(batch, i) {
+  console.info('Indexed batch', i);
   return index.addObjects(batch)
 })
