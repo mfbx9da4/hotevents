@@ -1,6 +1,6 @@
 [
     {
-        "created": 1520971277460,
+        "created": 1521062457272,
         "duration": 46800000,
         "id": "27752151",
         "name": "AUSTRALIA DAY PARTY & Sausage Sizzle! $3 Beer/Wine, TRIPLE J, Aussie Games!",
@@ -8,7 +8,7 @@
         "time": 1548464400000,
         "local_date": "2019-01-25",
         "local_time": "17:00",
-        "updated": 1520971277460,
+        "updated": 1521062457272,
         "utc_offset": -28800000,
         "waitlist_count": 0,
         "yes_rsvp_count": 81,
@@ -131,7 +131,7 @@
         "is_hot": true
     },
     {
-        "created": 1520971274724,
+        "created": 1521062457272,
         "duration": 25200000,
         "id": "183317122",
         "name": "Thai Food & Club Crawl! (Ruby Skye & Slide)",
@@ -139,7 +139,7 @@
         "time": 1546056000000,
         "local_date": "2018-12-28",
         "local_time": "20:00",
-        "updated": 1520971274724,
+        "updated": 1521062457272,
         "utc_offset": -28800000,
         "waitlist_count": 0,
         "yes_rsvp_count": 117,
@@ -408,7 +408,7 @@
         "updated": 1520376965000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 582,
+        "yes_rsvp_count": 591,
         "venue": {
             "id": 25049384,
             "name": "Checkr HQ (One Montgomery Tower)",
@@ -832,7 +832,7 @@
         "is_hot": true
     },
     {
-        "created": 1520971073030,
+        "created": 1521059118406,
         "duration": 7200000,
         "id": "245434799",
         "name": "How Important Is Startup Experience vs MBA by Google Product Manager",
@@ -840,10 +840,10 @@
         "time": 1521077400000,
         "local_date": "2018-03-14",
         "local_time": "18:30",
-        "updated": 1520971073030,
+        "updated": 1521059118406,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 98,
+        "yes_rsvp_count": 102,
         "group": {
             "created": 1407864726000,
             "name": "Product Management San Francisco",
@@ -969,8 +969,8 @@
         "local_time": "18:00",
         "updated": 1520300926000,
         "utc_offset": -25200000,
-        "waitlist_count": 30,
-        "yes_rsvp_count": 250,
+        "waitlist_count": 6,
+        "yes_rsvp_count": 276,
         "venue": {
             "id": 25141192,
             "name": "Uber",
@@ -1039,9 +1039,9 @@
         "objectID": "245472071",
         "is_getting_full": false,
         "is_popular": true,
-        "is_full": false,
-        "percent": 1,
-        "percent_full": "100",
+        "is_full": true,
+        "percent": 1.104,
+        "percent_full": "110",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -1428,7 +1428,7 @@
         "updated": 1519921424000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 87,
+        "yes_rsvp_count": 90,
         "venue": {
             "id": 24005100,
             "name": "Galvanize San Francisco, CA",
@@ -1569,10 +1569,10 @@
         "time": 1521684000000,
         "local_date": "2018-03-21",
         "local_time": "19:00",
-        "updated": 1520795686000,
+        "updated": 1520980140000,
         "utc_offset": -25200000,
-        "waitlist_count": 0,
-        "yes_rsvp_count": 98,
+        "waitlist_count": 2,
+        "yes_rsvp_count": 100,
         "venue": {
             "id": 24454560,
             "name": "Digital Garage",
@@ -1694,11 +1694,11 @@
         "visibility": "public",
         "pro_is_email_shared": false,
         "objectID": "246748638",
-        "is_getting_full": true,
+        "is_getting_full": false,
         "is_popular": true,
         "is_full": false,
-        "percent": 0.98,
-        "percent_full": "98",
+        "percent": 1,
+        "percent_full": "100",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -1882,7 +1882,7 @@
         "updated": 1520876821000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 72,
+        "yes_rsvp_count": 75,
         "venue": {
             "id": 12447942,
             "name": "Runway",
@@ -1982,8 +1982,8 @@
         "is_getting_full": false,
         "is_popular": true,
         "is_full": false,
-        "percent": 0.5142857142857142,
-        "percent_full": "51",
+        "percent": 0.5357142857142857,
+        "percent_full": "54",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -2000,7 +2000,7 @@
         "local_time": "18:00",
         "updated": 1520899039000,
         "utc_offset": -25200000,
-        "waitlist_count": 30,
+        "waitlist_count": 49,
         "yes_rsvp_count": 325,
         "venue": {
             "id": 15022762,
@@ -2303,7 +2303,7 @@
         "updated": 1520662269000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 110,
+        "yes_rsvp_count": 112,
         "venue": {
             "id": 25739646,
             "name": "Microsoft Reactor",
@@ -2381,10 +2381,10 @@
         "time": 1521077400000,
         "local_date": "2018-03-14",
         "local_time": "18:30",
-        "updated": 1520562898000,
+        "updated": 1521012029000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 108,
+        "yes_rsvp_count": 121,
         "venue": {
             "id": 25742404,
             "name": "Google ",
@@ -2517,174 +2517,6 @@
         "urls": {},
         "is_paid": false,
         "eventbrite_link": "https://eventbrite.com/e/data-science-101-tickets-43775015249",
-        "is_hot": true
-    },
-    {
-        "created": 1516826048000,
-        "duration": 11700000,
-        "id": "247129465",
-        "name": "Enhance Your Social Intelligence",
-        "rsvp_limit": 30,
-        "status": "upcoming",
-        "time": 1520991900000,
-        "local_date": "2018-03-13",
-        "local_time": "18:45",
-        "updated": 1520969451000,
-        "utc_offset": -25200000,
-        "waitlist_count": 0,
-        "yes_rsvp_count": 26,
-        "venue": {
-            "id": 21546302,
-            "name": "Jaunty @WeWork Golden Gate",
-            "lat": 37.78247833251953,
-            "lon": -122.41069793701172,
-            "repinned": false,
-            "address_1": "25 Taylor Street",
-            "city": "San Francisco",
-            "country": "us",
-            "localized_country_name": "USA",
-            "zip": "",
-            "state": "CA"
-        },
-        "group": {
-            "created": 1310266036000,
-            "name": "SF Free School",
-            "id": 2148441,
-            "join_mode": "open",
-            "lat": 37.7599983215332,
-            "lon": -122.44000244140625,
-            "urlname": "SF-Free-School",
-            "who": "Freeschoolers",
-            "localized_location": "San Francisco, CA",
-            "region": "en_US",
-            "category": {
-                "id": 2,
-                "name": "Career & Business",
-                "shortname": "career-business",
-                "sort_name": "Career & Business"
-            },
-            "topics": [
-                {
-                    "id": 173,
-                    "name": "Musicians",
-                    "urlkey": "musicians",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 226,
-                    "name": "Acting",
-                    "urlkey": "acting",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 391,
-                    "name": "Teachers",
-                    "urlkey": "teachers",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1254,
-                    "name": "Shamanism",
-                    "urlkey": "shamanism",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1322,
-                    "name": "Meditation",
-                    "urlkey": "meditation",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 3336,
-                    "name": "Self-Improvement",
-                    "urlkey": "self-improvement",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 4422,
-                    "name": "Social Networking",
-                    "urlkey": "socialnetwork",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 7203,
-                    "name": "Education & Technology",
-                    "urlkey": "edtech",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 10290,
-                    "name": "Spirituality",
-                    "urlkey": "spirituality",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 16573,
-                    "name": "Artists",
-                    "urlkey": "boston-artists",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 16728,
-                    "name": "Writing",
-                    "urlkey": "writing",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 17150,
-                    "name": "Alternative Medicine",
-                    "urlkey": "alternative-medicine",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 17558,
-                    "name": "Performing Arts",
-                    "urlkey": "performing-arts",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 19146,
-                    "name": "Dance Lessons",
-                    "urlkey": "dance-lessons",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 20629,
-                    "name": "Courses and Workshops",
-                    "urlkey": "courses-and-workshops",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 20727,
-                    "name": "Community Building",
-                    "urlkey": "community-building",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 23274,
-                    "name": "Theater",
-                    "urlkey": "live-theatre",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 135717,
-                    "name": "Executive Coaching",
-                    "urlkey": "executive-coaching",
-                    "lang": "en_US"
-                }
-            ]
-        },
-        "link": "https://www.meetup.com/SF-Free-School/events/247129465/",
-        "how_to_find_us": "We're in the WeWork building, which is connected to the Golden Gate Theatre. There will be someone at the door to greet you.",
-        "visibility": "public",
-        "objectID": "247129465",
-        "is_getting_full": true,
-        "is_popular": false,
-        "is_full": false,
-        "percent": 0.8666666666666667,
-        "percent_full": "87",
-        "urls": {},
-        "is_paid": false,
         "is_hot": true
     },
     {
@@ -2830,7 +2662,7 @@
         "updated": 1520107355000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 83,
+        "yes_rsvp_count": 84,
         "venue": {
             "id": 12330742,
             "name": "Yelp Headquarters",
@@ -2977,7 +2809,7 @@
         "local_time": "09:00",
         "updated": 1520867481000,
         "utc_offset": -25200000,
-        "waitlist_count": 9,
+        "waitlist_count": 10,
         "yes_rsvp_count": 4,
         "group": {
             "created": 1508627704000,
@@ -3078,151 +2910,6 @@
         "is_hot": true
     },
     {
-        "created": 1516991812000,
-        "duration": 7200000,
-        "id": "247194038",
-        "name": "SF Crypto Devs Presents: A hardCORE workout w/ Bitcoin Core Dev Jeremy Rubin",
-        "rsvp_limit": 50,
-        "status": "upcoming",
-        "time": 1524103200000,
-        "local_date": "2018-04-18",
-        "local_time": "19:00",
-        "updated": 1518987950000,
-        "utc_offset": -25200000,
-        "waitlist_count": 0,
-        "yes_rsvp_count": 47,
-        "venue": {
-            "id": 728878,
-            "name": "PARISOMA",
-            "lat": 37.773536682128906,
-            "lon": -122.4161148071289,
-            "repinned": false,
-            "address_1": "169 11th Street",
-            "city": "San Francisco",
-            "country": "us",
-            "localized_country_name": "USA",
-            "phone": "415-626-6406",
-            "zip": "94103",
-            "state": "CA"
-        },
-        "group": {
-            "created": 1508200492000,
-            "name": "SF Cryptocurrency Devs",
-            "id": 26289431,
-            "join_mode": "approval",
-            "lat": 37.779998779296875,
-            "lon": -122.41999816894531,
-            "urlname": "SF-Cryptocurrency-Devs",
-            "who": "SFCDevs",
-            "localized_location": "San Francisco, CA",
-            "region": "en_US",
-            "category": {
-                "id": 34,
-                "name": "Tech",
-                "shortname": "tech",
-                "sort_name": "Tech"
-            },
-            "topics": [
-                {
-                    "id": 19882,
-                    "name": "Entrepreneurship",
-                    "urlkey": "entrepreneurship",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 70315,
-                    "name": "Virtual Currency",
-                    "urlkey": "virtual-currency",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 100259,
-                    "name": "Decentralization",
-                    "urlkey": "decentralization",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 139517,
-                    "name": "Bitcoin",
-                    "urlkey": "bitcoin",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 143713,
-                    "name": "Digital Currency",
-                    "urlkey": "digital-currency",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 191791,
-                    "name": "Cryptocurrency",
-                    "urlkey": "cryptocurrency",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1461892,
-                    "name": "Decentralized Systems",
-                    "urlkey": "decentralized-systems",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1471982,
-                    "name": "Smart Contracts",
-                    "urlkey": "smart-contracts",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1471992,
-                    "name": "Ethereum",
-                    "urlkey": "ethereum",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1483532,
-                    "name": "Bitcoin Security",
-                    "urlkey": "bitcoin-security",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1493232,
-                    "name": "Blockchain",
-                    "urlkey": "blockchain",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1509458,
-                    "name": "Hyperledger",
-                    "urlkey": "hyperledger",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1510432,
-                    "name": "Blockchain Security",
-                    "urlkey": "blockchain-security",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1513749,
-                    "name": "Blockchain Development",
-                    "urlkey": "blockchain-development",
-                    "lang": "en_US"
-                }
-            ]
-        },
-        "link": "https://www.meetup.com/SF-Cryptocurrency-Devs/events/247194038/",
-        "visibility": "public",
-        "pro_is_email_shared": false,
-        "objectID": "247194038",
-        "is_getting_full": true,
-        "is_popular": false,
-        "is_full": false,
-        "percent": 0.94,
-        "percent_full": "94",
-        "urls": {},
-        "is_paid": false,
-        "is_hot": true
-    },
-    {
         "created": 1517027805000,
         "duration": 10800000,
         "id": "247211580",
@@ -3234,7 +2921,7 @@
         "updated": 1518480650000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 139,
+        "yes_rsvp_count": 142,
         "venue": {
             "id": 15810752,
             "name": "Yelp Headquarters",
@@ -3374,7 +3061,7 @@
         "updated": 1519760735000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 72,
+        "yes_rsvp_count": 78,
         "venue": {
             "id": 25749315,
             "name": "Google Launchpad",
@@ -3509,7 +3196,153 @@
         "is_hot": true
     },
     {
-        "created": 1520971255646,
+        "created": 1517438807000,
+        "duration": 10800000,
+        "id": "247361374",
+        "name": "Simplified Big Data/IoT Analytics with Time-Series & Columnar DB",
+        "status": "upcoming",
+        "time": 1521162000000,
+        "local_date": "2018-03-15",
+        "local_time": "18:00",
+        "updated": 1521056534000,
+        "utc_offset": -25200000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 74,
+        "venue": {
+            "id": 25139838,
+            "name": "Chartboost",
+            "lat": 37.78851318359375,
+            "lon": -122.39994049072266,
+            "repinned": false,
+            "address_1": "85 Second Street",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1418065951000,
+            "name": "Analytics At Speed San Francisco",
+            "id": 18240623,
+            "join_mode": "open",
+            "lat": 37.790000915527344,
+            "lon": -122.4000015258789,
+            "urlname": "Analytics-At-Speed-SanFrancisco",
+            "who": "q-ists",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "category": {
+                "id": 34,
+                "name": "Tech",
+                "shortname": "tech",
+                "sort_name": "Tech"
+            },
+            "topics": [
+                {
+                    "id": 10538,
+                    "name": "Business Intelligence",
+                    "urlkey": "businessintell",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15167,
+                    "name": "Cloud Computing",
+                    "urlkey": "cloud-computing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18062,
+                    "name": "Big Data",
+                    "urlkey": "big-data",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 29971,
+                    "name": "Machine Learning",
+                    "urlkey": "machine-learning",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 37381,
+                    "name": "Data Visualization",
+                    "urlkey": "data-visualization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 38458,
+                    "name": "Predictive Analytics",
+                    "urlkey": "predictive-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 58162,
+                    "name": "NoSQL",
+                    "urlkey": "nosql",
+                    "lang": "fr"
+                },
+                {
+                    "id": 79740,
+                    "name": "Internet of Things",
+                    "urlkey": "internet-of-things",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1466902,
+                    "name": "Operational Intelligence",
+                    "urlkey": "operational-intelligence",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1493232,
+                    "name": "Blockchain",
+                    "urlkey": "blockchain",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1503702,
+                    "name": "kdb+",
+                    "urlkey": "kdb",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1503736,
+                    "name": "Kx",
+                    "urlkey": "kx",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1513135,
+                    "name": "Streaming Analytics",
+                    "urlkey": "streaming-analytics",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1513136,
+                    "name": "In-Memory Computing",
+                    "urlkey": "in-memory-computing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1513137,
+                    "name": "Time Series Database",
+                    "urlkey": "time-series-database",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/Analytics-At-Speed-SanFrancisco/events/247361374/",
+        "visibility": "public",
+        "objectID": "247361374",
+        "is_getting_full": false,
+        "is_popular": true,
+        "percent": null,
+        "urls": {},
+        "is_paid": false,
+        "is_hot": true
+    },
+    {
+        "created": 1521062438149,
         "duration": 12600000,
         "id": "247372042",
         "name": "April 2018 - Bay Area Cyber Security Meetup - San Francisco",
@@ -3517,9 +3350,9 @@
         "time": 1522890000000,
         "local_date": "2018-04-04",
         "local_time": "18:00",
-        "updated": 1520971255646,
+        "updated": 1521062438149,
         "utc_offset": -25200000,
-        "waitlist_count": 57,
+        "waitlist_count": 61,
         "yes_rsvp_count": 150,
         "group": {
             "created": 1410471357000,
@@ -3634,7 +3467,7 @@
         "updated": 1520910616000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 23,
+        "yes_rsvp_count": 26,
         "venue": {
             "id": 819537,
             "name": "Ristorante Ideale",
@@ -3766,8 +3599,8 @@
         "is_getting_full": true,
         "is_popular": false,
         "is_full": false,
-        "percent": 0.7666666666666667,
-        "percent_full": "77",
+        "percent": 0.8666666666666667,
+        "percent_full": "87",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -3934,7 +3767,7 @@
         "updated": 1519995087000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 72,
+        "yes_rsvp_count": 73,
         "venue": {
             "id": 25733156,
             "name": "KNotel",
@@ -4076,7 +3909,7 @@
         "updated": 1520888550000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 88,
+        "yes_rsvp_count": 92,
         "venue": {
             "id": 25333036,
             "name": "Credit Karma",
@@ -4200,8 +4033,8 @@
         "is_getting_full": false,
         "is_popular": true,
         "is_full": false,
-        "percent": 0.5866666666666667,
-        "percent_full": "59",
+        "percent": 0.6133333333333333,
+        "percent_full": "61",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -4219,7 +4052,7 @@
         "updated": 1520961835000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 70,
+        "yes_rsvp_count": 73,
         "venue": {
             "id": 20384242,
             "name": "WeWork Golden Gate",
@@ -4335,10 +4168,10 @@
         "visibility": "public",
         "objectID": "247547884",
         "is_getting_full": true,
-        "is_popular": false,
+        "is_popular": true,
         "is_full": false,
-        "percent": 0.8235294117647058,
-        "percent_full": "82",
+        "percent": 0.8588235294117647,
+        "percent_full": "86",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -4355,7 +4188,7 @@
         "updated": 1519838915000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 98,
+        "yes_rsvp_count": 112,
         "venue": {
             "id": 23360762,
             "name": "WeWork SOMA",
@@ -4647,10 +4480,10 @@
         "time": 1521905400000,
         "local_date": "2018-03-24",
         "local_time": "08:30",
-        "updated": 1518548061000,
+        "updated": 1520980102000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 100,
+        "yes_rsvp_count": 99,
         "venue": {
             "id": 25044409,
             "name": "GitHub",
@@ -4794,10 +4627,10 @@
         "time": 1521389700000,
         "local_date": "2018-03-18",
         "local_time": "09:15",
-        "updated": 1520625367000,
+        "updated": 1521046339000,
         "utc_offset": -25200000,
-        "waitlist_count": 6,
-        "yes_rsvp_count": 4,
+        "waitlist_count": 2,
+        "yes_rsvp_count": 5,
         "venue": {
             "id": 19008872,
             "name": "South Beach Harbor",
@@ -4895,155 +4728,8 @@
         "is_getting_full": false,
         "is_popular": false,
         "is_full": true,
-        "percent": 4,
-        "percent_full": "400",
-        "urls": {},
-        "is_paid": false,
-        "is_hot": true
-    },
-    {
-        "created": 1518480342000,
-        "duration": 10800000,
-        "id": "247754551",
-        "name": "Spinnaker Kubernetes V2, AWS ECS and Community Talks",
-        "status": "upcoming",
-        "time": 1520989200000,
-        "local_date": "2018-03-13",
-        "local_time": "18:00",
-        "updated": 1520542503000,
-        "utc_offset": -25200000,
-        "waitlist_count": 0,
-        "yes_rsvp_count": 161,
-        "venue": {
-            "id": 25730935,
-            "name": "Gusto",
-            "lat": 37.78084182739258,
-            "lon": -122.39582061767578,
-            "repinned": false,
-            "address_1": " 500 3rd St",
-            "address_2": "2F",
-            "city": "San Francisco",
-            "country": "us",
-            "localized_country_name": "USA",
-            "zip": "94107",
-            "state": "ca"
-        },
-        "group": {
-            "created": 1372370518000,
-            "name": "Spinnaker Bay Area Meetup",
-            "id": 9122292,
-            "join_mode": "open",
-            "lat": 37.790000915527344,
-            "lon": -122.4000015258789,
-            "urlname": "spinnaker",
-            "who": "Members",
-            "localized_location": "San Francisco, CA",
-            "region": "en_US",
-            "category": {
-                "id": 34,
-                "name": "Tech",
-                "shortname": "tech",
-                "sort_name": "Tech"
-            },
-            "topics": [
-                {
-                    "id": 3833,
-                    "name": "Software Development",
-                    "urlkey": "softwaredev",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 15167,
-                    "name": "Cloud Computing",
-                    "urlkey": "cloud-computing",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 20398,
-                    "name": "Amazon Web Services",
-                    "urlkey": "amazon-web-services",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 27922,
-                    "name": "Continuous Integration",
-                    "urlkey": "continuous-integration",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 31197,
-                    "name": "PaaS (Platform as a Service)",
-                    "urlkey": "paas",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 66339,
-                    "name": "Windows Azure Platform",
-                    "urlkey": "windows-azure-platform",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 87614,
-                    "name": "DevOps",
-                    "urlkey": "devops",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 166000,
-                    "name": "Continuous Delivery",
-                    "urlkey": "continuous-delivery",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 230351,
-                    "name": "Continuous Deployment",
-                    "urlkey": "continuous-deployment",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1237482,
-                    "name": "AWS Programming and Tools",
-                    "urlkey": "aws-programming-and-tools",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1454542,
-                    "name": "Docker",
-                    "urlkey": "docker",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1475932,
-                    "name": "Google Cloud Platform",
-                    "urlkey": "google-cloud-platform",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1500742,
-                    "name": "Kubernetes",
-                    "urlkey": "kubernetes",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1504752,
-                    "name": "Containers",
-                    "urlkey": "containers",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1512785,
-                    "name": "Spinnaker",
-                    "urlkey": "spinnaker",
-                    "lang": "en_US"
-                }
-            ]
-        },
-        "link": "https://www.meetup.com/spinnaker/events/247754551/",
-        "visibility": "public",
-        "objectID": "247754551",
-        "is_getting_full": false,
-        "is_popular": true,
-        "percent": null,
+        "percent": 5,
+        "percent_full": "500",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -5060,7 +4746,7 @@
         "updated": 1520488138000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 288,
+        "yes_rsvp_count": 301,
         "venue": {
             "id": 25073683,
             "name": "Udemy HQ",
@@ -5277,186 +4963,19 @@
         "is_hot": true
     },
     {
-        "created": 1518549501000,
-        "duration": 7200000,
-        "id": "247777927",
-        "name": "[Union Square] Happy hour cocktails at Sugar Lounge [FREE]",
-        "rsvp_limit": 25,
-        "status": "upcoming",
-        "time": 1521250200000,
-        "local_date": "2018-03-16",
-        "local_time": "18:30",
-        "updated": 1520885445000,
-        "utc_offset": -25200000,
-        "waitlist_count": 0,
-        "yes_rsvp_count": 21,
-        "group": {
-            "created": 1421200175000,
-            "name": "San Francisco Urban Adventure Club",
-            "id": 18332677,
-            "join_mode": "open",
-            "lat": 37.75,
-            "lon": -122.41999816894531,
-            "urlname": "San-Francisco-Urban-Adventure-Club",
-            "who": "Adventurers",
-            "localized_location": "San Francisco, CA",
-            "region": "en_US",
-            "category": {
-                "id": 31,
-                "name": "Socializing",
-                "shortname": "socializing",
-                "sort_name": "Socializing"
-            },
-            "membership_dues": {
-                "fee": 15,
-                "currency": "USD",
-                "fee_desc": "month",
-                "methods": {
-                    "amazon_payments": false,
-                    "paypal": false,
-                    "credit_card": true,
-                    "other": false
-                },
-                "refund_policy": {
-                    "none": true,
-                    "member_leaves": false,
-                    "group_closes": false,
-                    "member_banned": false,
-                    "custom": false
-                },
-                "self_payment_required": false,
-                "reasons": [
-                    "cover_costs",
-                    "reserve_fund",
-                    "improve_meetups",
-                    "compenstate_organizer",
-                    "encourage_engagement",
-                    "provide_supplies"
-                ],
-                "required_to": "join",
-                "required": true,
-                "trial_days": 30
-            },
-            "topics": [
-                {
-                    "id": 374,
-                    "name": "Camping",
-                    "urlkey": "camping",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 498,
-                    "name": "Singles",
-                    "urlkey": "singles",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 638,
-                    "name": "Hiking",
-                    "urlkey": "hiking",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 713,
-                    "name": "Dining Out",
-                    "urlkey": "diningout",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1273,
-                    "name": "New In Town",
-                    "urlkey": "newintown",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1998,
-                    "name": "Travel",
-                    "urlkey": "travel",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 4392,
-                    "name": "Nightlife",
-                    "urlkey": "nightlife",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 15046,
-                    "name": "Outdoors",
-                    "urlkey": "outdoors",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 15117,
-                    "name": "Fun Times",
-                    "urlkey": "fun-times",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 15892,
-                    "name": "Adventure",
-                    "urlkey": "adventure",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 16800,
-                    "name": "Happy Hour",
-                    "urlkey": "happy-hours",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 17558,
-                    "name": "Performing Arts",
-                    "urlkey": "performing-arts",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 20246,
-                    "name": "Dating and Relationships",
-                    "urlkey": "dating-and-relationships",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 21500,
-                    "name": "San Francisco",
-                    "urlkey": "san-francisco",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 87548,
-                    "name": "Food and Drink",
-                    "urlkey": "food-and-drink",
-                    "lang": "en_US"
-                }
-            ]
-        },
-        "link": "https://www.meetup.com/San-Francisco-Urban-Adventure-Club/events/247777927/",
-        "visibility": "public",
-        "pro_is_email_shared": false,
-        "objectID": "247777927",
-        "is_getting_full": true,
-        "is_popular": false,
-        "is_full": false,
-        "percent": 0.84,
-        "percent_full": "84",
-        "urls": {},
-        "is_paid": false,
-        "is_hot": true
-    },
-    {
         "created": 1518549803000,
         "duration": 7200000,
         "id": "247778226",
         "name": "Kubernetes SF: Building an Automated Data Pipeline & Cilium App Aware Security",
-        "rsvp_limit": 200,
+        "rsvp_limit": 250,
         "status": "upcoming",
         "time": 1521163800000,
         "local_date": "2018-03-15",
         "local_time": "18:30",
-        "updated": 1520125158000,
+        "updated": 1521046260000,
         "utc_offset": -25200000,
-        "waitlist_count": 47,
-        "yes_rsvp_count": 200,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 243,
         "venue": {
             "id": 24981948,
             "name": "Amazon AWS Loft",
@@ -5572,11 +5091,11 @@
         "visibility": "public",
         "pro_is_email_shared": false,
         "objectID": "247778226",
-        "is_getting_full": false,
+        "is_getting_full": true,
         "is_popular": true,
         "is_full": false,
-        "percent": 1,
-        "percent_full": "100",
+        "percent": 0.972,
+        "percent_full": "97",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -5593,7 +5112,7 @@
         "local_time": "17:45",
         "updated": 1520352251000,
         "utc_offset": -25200000,
-        "waitlist_count": 0,
+        "waitlist_count": 1,
         "yes_rsvp_count": 100,
         "venue": {
             "id": 24773158,
@@ -5795,7 +5314,7 @@
         "updated": 1519598616000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 99,
+        "yes_rsvp_count": 101,
         "venue": {
             "id": 24498782,
             "name": "Google San Francisco",
@@ -5936,7 +5455,7 @@
         "local_time": "18:00",
         "updated": 1518738981000,
         "utc_offset": -25200000,
-        "waitlist_count": 0,
+        "waitlist_count": 4,
         "yes_rsvp_count": 120,
         "venue": {
             "id": 25724883,
@@ -6080,7 +5599,7 @@
         "updated": 1520741462000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 334,
+        "yes_rsvp_count": 344,
         "venue": {
             "id": 25557845,
             "name": "500 Startups",
@@ -6206,7 +5725,7 @@
         "updated": 1520187567000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 97,
+        "yes_rsvp_count": 103,
         "venue": {
             "id": 23763906,
             "name": "Pivotal Labs",
@@ -6345,7 +5864,7 @@
         "updated": 1520910575000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 23,
+        "yes_rsvp_count": 24,
         "venue": {
             "id": 819537,
             "name": "Ristorante Ideale",
@@ -6365,11 +5884,11 @@
             "name": "Marin Italian Speaking Group",
             "id": 1169629,
             "join_mode": "open",
-            "lat": 37.88999938964844,
-            "lon": -122.56999969482422,
+            "lat": 37.939998626708984,
+            "lon": -122.54000091552734,
             "urlname": "Marin-Italian-Speaking-Group",
             "who": "Italian Speakers",
-            "localized_location": "Mill Valley, CA",
+            "localized_location": "Larkspur, CA",
             "region": "en_US",
             "category": {
                 "id": 16,
@@ -6379,15 +5898,15 @@
             },
             "topics": [
                 {
-                    "id": 184,
-                    "name": "Italian Language",
-                    "urlkey": "italian",
-                    "lang": "en_US"
-                },
-                {
                     "id": 713,
                     "name": "Dining Out",
                     "urlkey": "diningout",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1273,
+                    "name": "New In Town",
+                    "urlkey": "newintown",
                     "lang": "en_US"
                 },
                 {
@@ -6439,21 +5958,33 @@
                     "lang": "en_US"
                 },
                 {
+                    "id": 15117,
+                    "name": "Fun Times",
+                    "urlkey": "fun-times",
+                    "lang": "en_US"
+                },
+                {
                     "id": 21693,
                     "name": "Italian Wines",
                     "urlkey": "italian-wines",
                     "lang": "en_US"
                 },
                 {
-                    "id": 21696,
-                    "name": "Italian Travel",
-                    "urlkey": "italian-travel",
+                    "id": 30436,
+                    "name": "Italy",
+                    "urlkey": "italy",
                     "lang": "en_US"
                 },
                 {
                     "id": 57848,
                     "name": "Italiano",
                     "urlkey": "conversazione-in-italiano",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 102139,
+                    "name": "Italian Culture and Language",
+                    "urlkey": "italian-culture-and-language",
                     "lang": "en_US"
                 }
             ]
@@ -6465,8 +5996,8 @@
         "is_getting_full": true,
         "is_popular": false,
         "is_full": false,
-        "percent": 0.7666666666666667,
-        "percent_full": "77",
+        "percent": 0.8,
+        "percent_full": "80",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -6480,10 +6011,10 @@
         "time": 1521768600000,
         "local_date": "2018-03-22",
         "local_time": "18:30",
-        "updated": 1520529214000,
+        "updated": 1521053040000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 121,
+        "yes_rsvp_count": 122,
         "venue": {
             "id": 23598895,
             "name": "Galvanize",
@@ -6618,138 +6149,6 @@
         "is_hot": true
     },
     {
-        "created": 1519175749000,
-        "duration": 9000000,
-        "id": "248005981",
-        "name": "Portfolio Review: Future Tech",
-        "rsvp_limit": 90,
-        "status": "upcoming",
-        "time": 1520991000000,
-        "local_date": "2018-03-13",
-        "local_time": "18:30",
-        "updated": 1519745969000,
-        "utc_offset": -25200000,
-        "waitlist_count": 14,
-        "yes_rsvp_count": 90,
-        "venue": {
-            "id": 25748977,
-            "name": "Reason",
-            "lat": 37.77576446533203,
-            "lon": -122.41454315185547,
-            "repinned": false,
-            "address_1": "122 9th St",
-            "city": "San Francisco",
-            "country": "us",
-            "localized_country_name": "USA",
-            "zip": "94103",
-            "state": "ca"
-        },
-        "group": {
-            "created": 1431795510000,
-            "name": "San Francisco User Experience Designers",
-            "id": 18602254,
-            "join_mode": "open",
-            "lat": 37.779998779296875,
-            "lon": -122.41999816894531,
-            "urlname": "sanfranciscouxd",
-            "who": "Designers and Developers",
-            "localized_location": "San Francisco, CA",
-            "region": "en_US",
-            "category": {
-                "id": 34,
-                "name": "Tech",
-                "shortname": "tech",
-                "sort_name": "Tech"
-            },
-            "topics": [
-                {
-                    "id": 659,
-                    "name": "Web Design",
-                    "urlkey": "webdesign",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1369,
-                    "name": "Information Architecture",
-                    "urlkey": "ia",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 10110,
-                    "name": "Interaction Design",
-                    "urlkey": "ixd",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 19243,
-                    "name": "User Experience",
-                    "urlkey": "user-experience",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 26938,
-                    "name": "Usability",
-                    "urlkey": "usability",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 49541,
-                    "name": "User Research",
-                    "urlkey": "user-research",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 61781,
-                    "name": "UX Design",
-                    "urlkey": "ux-design",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 104717,
-                    "name": "User Interface Design",
-                    "urlkey": "user-interface-design",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 107583,
-                    "name": "UI Design",
-                    "urlkey": "ui-design",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 122974,
-                    "name": "Mobile User Experience",
-                    "urlkey": "mobile-user-experience",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 160325,
-                    "name": "User Experience Optimization",
-                    "urlkey": "user-experience-optimization",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1346882,
-                    "name": "User experience research",
-                    "urlkey": "user-experience-research",
-                    "lang": "en_US"
-                }
-            ]
-        },
-        "link": "https://www.meetup.com/sanfranciscouxd/events/248005981/",
-        "visibility": "public",
-        "objectID": "248005981",
-        "is_getting_full": false,
-        "is_popular": true,
-        "is_full": false,
-        "percent": 1,
-        "percent_full": "100",
-        "urls": {},
-        "is_paid": true,
-        "eventbrite_link": "https://eventbrite.com/e/portfolio-review-future-tech-tickets-43296729684",
-        "is_hot": true
-    },
-    {
         "created": 1519189558000,
         "duration": 7200000,
         "id": "248013748",
@@ -6762,7 +6161,7 @@
         "rsvp_close_offset": "PT141H",
         "updated": 1520037971000,
         "utc_offset": -25200000,
-        "waitlist_count": 1,
+        "waitlist_count": 2,
         "yes_rsvp_count": 5,
         "venue": {
             "id": 25741276,
@@ -6899,7 +6298,7 @@
         "updated": 1519234985000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 86,
+        "yes_rsvp_count": 92,
         "venue": {
             "id": 25709540,
             "name": "Metis Livestream",
@@ -7054,7 +6453,7 @@
         "updated": 1520096773000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 109,
+        "yes_rsvp_count": 110,
         "venue": {
             "id": 11903572,
             "name": "Google San Francisco",
@@ -7192,15 +6591,15 @@
         "created": 1519430338000,
         "duration": 183600000,
         "id": "248112278",
-        "name": "ALL WEEKEND! Computational Law & Blockchain Festival - SF",
+        "name": "THIS FRI/SAT/SUN! Computational Law & Blockchain Festival - SF",
         "status": "upcoming",
         "time": 1521248400000,
         "local_date": "2018-03-16",
         "local_time": "18:00",
-        "updated": 1520967890000,
+        "updated": 1521062150000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 90,
+        "yes_rsvp_count": 103,
         "venue": {
             "id": 25600868,
             "name": "Impact Hub SF",
@@ -7324,6 +6723,142 @@
         "is_getting_full": false,
         "is_popular": true,
         "percent": null,
+        "urls": {},
+        "is_paid": false,
+        "form_link": "https://docs.google.com/forms/d/e/1FAIpQLScQPaWitG8GKZ0xTdipHptwZlBeH9atPGjScI5768pRl5mC0w/viewform",
+        "is_hot": true
+    },
+    {
+        "created": 1519430789000,
+        "duration": 118800000,
+        "id": "248112377",
+        "name": "[o/n] [Beginner] China Camp State Park, 2Days-1Night, weekend getaway.",
+        "rsvp_limit": 8,
+        "status": "upcoming",
+        "time": 1521910800000,
+        "local_date": "2018-03-24",
+        "local_time": "10:00",
+        "updated": 1519432407000,
+        "utc_offset": -25200000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 12,
+        "venue": {
+            "id": 23806163,
+            "name": "San Francisco Ferry Building",
+            "lat": 37.795291900634766,
+            "lon": -122.3939208984375,
+            "repinned": false,
+            "address_1": "1 Ferry Building",
+            "city": "San Francisco",
+            "country": "US",
+            "localized_country_name": "USA"
+        },
+        "group": {
+            "created": 1221427264000,
+            "name": "Norcal Bicycle Touring",
+            "id": 1282204,
+            "join_mode": "open",
+            "lat": 37.790000915527344,
+            "lon": -122.4000015258789,
+            "urlname": "norcal-biketouring",
+            "who": "Bike Tourers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "category": {
+                "id": 23,
+                "name": "Outdoors & Adventure",
+                "shortname": "outdoors-adventure",
+                "sort_name": "Outdoors & Adventure"
+            },
+            "topics": [
+                {
+                    "id": 374,
+                    "name": "Camping",
+                    "urlkey": "camping",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 579,
+                    "name": "Bicycling",
+                    "urlkey": "bike",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10451,
+                    "name": "Sports and Recreation",
+                    "urlkey": "sports",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15046,
+                    "name": "Outdoors",
+                    "urlkey": "outdoors",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16967,
+                    "name": "Outdoor Adventures",
+                    "urlkey": "outdoor-adventures",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18617,
+                    "name": "Cycling",
+                    "urlkey": "cycling",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20064,
+                    "name": "Northern California",
+                    "urlkey": "northern-california",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 33260,
+                    "name": "cycle touring",
+                    "urlkey": "cycle-touring",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 36803,
+                    "name": "Bicycle Touring",
+                    "urlkey": "bicycle-touring",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 40762,
+                    "name": "Casual Bicycling",
+                    "urlkey": "casual-bicycling",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 42183,
+                    "name": "Bay Area Bicycle Touring",
+                    "urlkey": "bay-area-bicycle-touring",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 78770,
+                    "name": "Bike Touring",
+                    "urlkey": "bike-touring",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 486032,
+                    "name": "Bikepacking",
+                    "urlkey": "bikepacking",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/norcal-biketouring/events/248112377/",
+        "visibility": "public",
+        "objectID": "248112377",
+        "is_getting_full": false,
+        "is_popular": false,
+        "is_full": true,
+        "percent": 1.5,
+        "percent_full": "150",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -7747,7 +7282,7 @@
         "updated": 1519615198000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 114,
+        "yes_rsvp_count": 115,
         "venue": {
             "id": 334555,
             "name": "Starbucks",
@@ -7889,7 +7424,7 @@
         "updated": 1519621642000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 14,
+        "yes_rsvp_count": 16,
         "venue": {
             "id": 22747702,
             "name": "Cafe YakiniQ",
@@ -8020,8 +7555,8 @@
         "is_getting_full": true,
         "is_popular": false,
         "is_full": false,
-        "percent": 0.8235294117647058,
-        "percent_full": "82",
+        "percent": 0.9411764705882353,
+        "percent_full": "94",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -8039,7 +7574,7 @@
         "updated": 1519631960000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 81,
+        "yes_rsvp_count": 82,
         "venue": {
             "id": 23422222,
             "name": "The Wix Lounge",
@@ -8163,8 +7698,8 @@
         "is_getting_full": true,
         "is_popular": true,
         "is_full": false,
-        "percent": 0.9,
-        "percent_full": "90",
+        "percent": 0.9111111111111111,
+        "percent_full": "91",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -8446,7 +7981,7 @@
         "updated": 1520893296000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 142,
+        "yes_rsvp_count": 148,
         "venue": {
             "id": 25749676,
             "name": "Databricks, Inc HQ",
@@ -8558,143 +8093,8 @@
         "is_getting_full": false,
         "is_popular": true,
         "is_full": false,
-        "percent": 0.568,
-        "percent_full": "57",
-        "urls": {},
-        "is_paid": false,
-        "is_hot": true
-    },
-    {
-        "created": 1519780459000,
-        "duration": 5400000,
-        "id": "248243330",
-        "name": "Hans Larsen lead of the Angular CLI and Alex Castillo",
-        "status": "upcoming",
-        "time": 1520991000000,
-        "local_date": "2018-03-13",
-        "local_time": "18:30",
-        "updated": 1520876185000,
-        "utc_offset": -25200000,
-        "waitlist_count": 0,
-        "yes_rsvp_count": 95,
-        "venue": {
-            "id": 24656067,
-            "name": "RocketSpace",
-            "lat": 37.791996002197266,
-            "lon": -122.400634765625,
-            "repinned": false,
-            "address_1": "180 Sansome St.",
-            "city": "San Francisco",
-            "country": "us",
-            "localized_country_name": "USA",
-            "zip": "",
-            "state": "CA"
-        },
-        "group": {
-            "created": 1338498929000,
-            "name": "Angular-SF",
-            "id": 3979102,
-            "join_mode": "open",
-            "lat": 37.790000915527344,
-            "lon": -122.4000015258789,
-            "urlname": "Angular-SF",
-            "who": "Members",
-            "localized_location": "San Francisco, CA",
-            "region": "en_US",
-            "category": {
-                "id": 34,
-                "name": "Tech",
-                "shortname": "tech",
-                "sort_name": "Tech"
-            },
-            "topics": [
-                {
-                    "id": 563,
-                    "name": "Open Source",
-                    "urlkey": "opensource",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 7029,
-                    "name": "JavaScript",
-                    "urlkey": "javascript",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 10102,
-                    "name": "Internet Professionals",
-                    "urlkey": "internetpro",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 10209,
-                    "name": "Web Technology",
-                    "urlkey": "web",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 15582,
-                    "name": "Web Development",
-                    "urlkey": "web-development",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 48471,
-                    "name": "Computer programming",
-                    "urlkey": "computer-programming",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 56555,
-                    "name": "JavaScript Libraries",
-                    "urlkey": "javascript-libraries",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 78565,
-                    "name": "HTML5",
-                    "urlkey": "html5",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 85951,
-                    "name": "JavaScript Frameworks",
-                    "urlkey": "javascript-frameworks",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 100479,
-                    "name": "Front-end Development",
-                    "urlkey": "front-end-development",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 939612,
-                    "name": "AngularJS",
-                    "urlkey": "angularjs",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 964072,
-                    "name": "JavaScript Applications",
-                    "urlkey": "javascript-applications",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 1511639,
-                    "name": "Angular 2",
-                    "urlkey": "angular-2",
-                    "lang": "en_US"
-                }
-            ]
-        },
-        "link": "https://www.meetup.com/Angular-SF/events/248243330/",
-        "how_to_find_us": "The meetup will be on the 3rd floor. We'll be welcoming you on the entrance",
-        "visibility": "public",
-        "objectID": "248243330",
-        "is_getting_full": false,
-        "is_popular": true,
-        "percent": null,
+        "percent": 0.592,
+        "percent_full": "59",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -8711,7 +8111,7 @@
         "updated": 1519792705000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 173,
+        "yes_rsvp_count": 178,
         "venue": {
             "id": 23535716,
             "name": "AppDynamics",
@@ -8800,146 +8200,6 @@
         "is_hot": true
     },
     {
-        "created": 1519838589000,
-        "duration": 9000000,
-        "id": "248265804",
-        "name": "Data Storytelling: Tackle Data Like An Investigative Journalist",
-        "status": "upcoming",
-        "time": 1520991000000,
-        "local_date": "2018-03-13",
-        "local_time": "18:30",
-        "updated": 1520462498000,
-        "utc_offset": -25200000,
-        "waitlist_count": 0,
-        "yes_rsvp_count": 73,
-        "venue": {
-            "id": 25081704,
-            "name": "Thought works",
-            "lat": 37.784446716308594,
-            "lon": -122.40495300292969,
-            "repinned": false,
-            "address_1": " 814 Mission St, 5th Floor",
-            "city": "San Francisco",
-            "country": "us",
-            "localized_country_name": "USA",
-            "zip": "",
-            "state": "CA"
-        },
-        "group": {
-            "created": 1509640684000,
-            "name": "San Francisco Women in Data",
-            "id": 26470994,
-            "join_mode": "open",
-            "lat": 37.779998779296875,
-            "lon": -122.41999816894531,
-            "urlname": "San-Francisco-Women-in-Data",
-            "who": "Data Enthusiasts",
-            "localized_location": "San Francisco, CA",
-            "region": "en_US",
-            "category": {
-                "id": 34,
-                "name": "Tech",
-                "shortname": "tech",
-                "sort_name": "Tech"
-            },
-            "topics": [
-                {
-                    "id": 7203,
-                    "name": "Education & Technology",
-                    "urlkey": "edtech",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 10296,
-                    "name": "Women in Technology",
-                    "urlkey": "witi",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 10538,
-                    "name": "Business Intelligence",
-                    "urlkey": "businessintell",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 15497,
-                    "name": "Women Entrepreneurs",
-                    "urlkey": "women-entrepreneurs",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 17933,
-                    "name": "Women's Empowerment",
-                    "urlkey": "womens-empowerment",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 18062,
-                    "name": "Big Data",
-                    "urlkey": "big-data",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 21067,
-                    "name": "Collaboration",
-                    "urlkey": "collaboration",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 21283,
-                    "name": "Women's Business Networking",
-                    "urlkey": "womens-business-networking",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 26273,
-                    "name": "Professional Women",
-                    "urlkey": "professional-women",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 30928,
-                    "name": "Data Analytics",
-                    "urlkey": "data-analytics",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 37381,
-                    "name": "Data Visualization",
-                    "urlkey": "data-visualization",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 65780,
-                    "name": "Knowledge Sharing",
-                    "urlkey": "knowledge-sharing",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 102811,
-                    "name": "Data Science",
-                    "urlkey": "data-science",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 383411,
-                    "name": "Big Data Analytics",
-                    "urlkey": "big-data-analytics",
-                    "lang": "en_US"
-                }
-            ]
-        },
-        "link": "https://www.meetup.com/San-Francisco-Women-in-Data/events/248265804/",
-        "visibility": "public",
-        "objectID": "248265804",
-        "is_getting_full": false,
-        "is_popular": true,
-        "percent": null,
-        "urls": {},
-        "is_paid": false,
-        "is_hot": true
-    },
-    {
         "created": 1519850084000,
         "duration": 7200000,
         "id": "248272317",
@@ -8951,7 +8211,7 @@
         "updated": 1519850109000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 74,
+        "yes_rsvp_count": 75,
         "venue": {
             "id": 15022762,
             "name": "Yelp",
@@ -9209,7 +8469,7 @@
         "updated": 1520019390000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 71,
+        "yes_rsvp_count": 75,
         "venue": {
             "id": 24820984,
             "name": "General Assembly",
@@ -9289,94 +8549,6 @@
         "visibility": "public",
         "pro_is_email_shared": true,
         "objectID": "248346490",
-        "is_getting_full": true,
-        "is_popular": true,
-        "is_full": false,
-        "percent": 0.9466666666666667,
-        "percent_full": "95",
-        "urls": {},
-        "is_paid": false,
-        "is_hot": true
-    },
-    {
-        "created": 1520108154000,
-        "duration": 8100000,
-        "id": "248379795",
-        "name": "Tech Talks: Testing, Metrics, and Ruby/Elixir!",
-        "rsvp_limit": 90,
-        "status": "upcoming",
-        "time": 1520991000000,
-        "local_date": "2018-03-13",
-        "local_time": "18:30",
-        "updated": 1520884438000,
-        "utc_offset": -25200000,
-        "waitlist_count": 10,
-        "yes_rsvp_count": 90,
-        "venue": {
-            "id": 25719336,
-            "name": "Atrium LLP",
-            "lat": 37.778141021728516,
-            "lon": -122.39447021484375,
-            "repinned": false,
-            "address_1": "260 Townsend Street",
-            "city": "San Francisco",
-            "country": "US",
-            "localized_country_name": "USA"
-        },
-        "group": {
-            "created": 1449450780000,
-            "name": "Fog City Ruby Meetup",
-            "id": 19188690,
-            "join_mode": "open",
-            "lat": 37.75,
-            "lon": -122.41999816894531,
-            "urlname": "fogcityruby",
-            "who": "Rubyists",
-            "localized_location": "San Francisco, CA",
-            "region": "en_US",
-            "category": {
-                "id": 34,
-                "name": "Tech",
-                "shortname": "tech",
-                "sort_name": "Tech"
-            },
-            "topics": [
-                {
-                    "id": 1040,
-                    "name": "Ruby",
-                    "urlkey": "ruby",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 3833,
-                    "name": "Software Development",
-                    "urlkey": "softwaredev",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 15582,
-                    "name": "Web Development",
-                    "urlkey": "web-development",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 20837,
-                    "name": "Ruby On Rails",
-                    "urlkey": "ruby-on-rails",
-                    "lang": "en_US"
-                },
-                {
-                    "id": 95826,
-                    "name": "Ruby on Rails Testing",
-                    "urlkey": "ruby-on-rails-testing",
-                    "lang": "en_US"
-                }
-            ]
-        },
-        "link": "https://www.meetup.com/fogcityruby/events/248379795/",
-        "how_to_find_us": "Suite 4",
-        "visibility": "public",
-        "objectID": "248379795",
         "is_getting_full": false,
         "is_popular": true,
         "is_full": false,
@@ -9529,7 +8701,7 @@
         "updated": 1520180954000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 79,
+        "yes_rsvp_count": 80,
         "venue": {
             "id": 25640206,
             "name": "New York Life Insurance Company",
@@ -9776,7 +8948,7 @@
         "updated": 1520621092000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 48,
+        "yes_rsvp_count": 50,
         "venue": {
             "id": 24790488,
             "name": "Bespoke - Level 4 Westfield San Francisco Center ",
@@ -9907,8 +9079,8 @@
         "is_getting_full": true,
         "is_popular": false,
         "is_full": false,
-        "percent": 0.8,
-        "percent_full": "80",
+        "percent": 0.8333333333333334,
+        "percent_full": "83",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -9925,7 +9097,7 @@
         "updated": 1520290565000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 80,
+        "yes_rsvp_count": 83,
         "group": {
             "created": 1478975268000,
             "name": "Cloud Native Online Meetup",
@@ -10030,6 +9202,119 @@
         "is_hot": true
     },
     {
+        "created": 1520293750000,
+        "duration": 3600000,
+        "id": "248451330",
+        "name": "Web Performance Meetup: March",
+        "rsvp_limit": 30,
+        "status": "upcoming",
+        "time": 1521856800000,
+        "local_date": "2018-03-23",
+        "local_time": "19:00",
+        "updated": 1520314350000,
+        "utc_offset": -25200000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 24,
+        "venue": {
+            "id": 23792472,
+            "name": "Salesforce Cafe, One Rincon Center",
+            "lat": 37.79220199584961,
+            "lon": -122.3935546875,
+            "repinned": false,
+            "address_1": "131 Spear Ave.",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1519324189000,
+            "name": "San Francisco Web Performance Meetup",
+            "id": 27612579,
+            "join_mode": "open",
+            "lat": 37.790000915527344,
+            "lon": -122.4000015258789,
+            "urlname": "meetup-group-wmNzffEt",
+            "who": "Members",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "category": {
+                "id": 34,
+                "name": "Tech",
+                "shortname": "tech",
+                "sort_name": "Tech"
+            },
+            "topics": [
+                {
+                    "id": 1954,
+                    "name": "Innovation",
+                    "urlkey": "innovation",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10209,
+                    "name": "Web Technology",
+                    "urlkey": "web",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15091,
+                    "name": "Web Performance",
+                    "urlkey": "web-performance",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 26273,
+                    "name": "Professional Women",
+                    "urlkey": "professional-women",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 65172,
+                    "name": "Test Automation",
+                    "urlkey": "test-automation",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 72378,
+                    "name": "Load Testing and Performance",
+                    "urlkey": "load-testing-and-performance",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 96611,
+                    "name": "Website Optimization",
+                    "urlkey": "website-optimization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 160325,
+                    "name": "User Experience Optimization",
+                    "urlkey": "user-experience-optimization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 769092,
+                    "name": "Performance Engineering",
+                    "urlkey": "performance-engineering",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/meetup-group-wmNzffEt/events/248451330/",
+        "visibility": "public",
+        "objectID": "248451330",
+        "is_getting_full": true,
+        "is_popular": false,
+        "is_full": false,
+        "percent": 0.8,
+        "percent_full": "80",
+        "urls": {},
+        "is_paid": false,
+        "is_hot": true
+    },
+    {
         "created": 1520303547000,
         "duration": 7200000,
         "id": "248456107",
@@ -10041,7 +9326,7 @@
         "local_time": "19:00",
         "updated": 1520303547000,
         "utc_offset": -25200000,
-        "waitlist_count": 28,
+        "waitlist_count": 30,
         "yes_rsvp_count": 100,
         "venue": {
             "id": 3420592,
@@ -10143,7 +9428,7 @@
         "updated": 1520549831000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 105,
+        "yes_rsvp_count": 120,
         "venue": {
             "id": 25721983,
             "name": "Upload",
@@ -10226,8 +9511,8 @@
         "is_getting_full": true,
         "is_popular": true,
         "is_full": false,
-        "percent": 0.84,
-        "percent_full": "84",
+        "percent": 0.96,
+        "percent_full": "96",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -10245,7 +9530,7 @@
         "updated": 1520762176000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 87,
+        "yes_rsvp_count": 105,
         "venue": {
             "id": 25762426,
             "name": "Historical Loft with a View of the Bay",
@@ -10355,11 +9640,11 @@
         "how_to_find_us": "If you have trouble finding the venue, you can reach us at +358505285391",
         "visibility": "public",
         "objectID": "248464221",
-        "is_getting_full": false,
+        "is_getting_full": true,
         "is_popular": true,
         "is_full": false,
-        "percent": 0.6692307692307692,
-        "percent_full": "67",
+        "percent": 0.8076923076923077,
+        "percent_full": "81",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -10374,10 +9659,10 @@
         "time": 1522717200000,
         "local_date": "2018-04-02",
         "local_time": "18:00",
-        "updated": 1520461413000,
+        "updated": 1520972623000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 84,
+        "yes_rsvp_count": 91,
         "venue": {
             "id": 17845992,
             "name": "Pubnub",
@@ -10503,13 +9788,13 @@
         },
         "link": "https://www.meetup.com/Hyperledger-SF/events/248509787/",
         "visibility": "public",
-        "pro_is_email_shared": false,
+        "pro_is_email_shared": true,
         "objectID": "248509787",
         "is_getting_full": false,
         "is_popular": true,
         "is_full": false,
-        "percent": 0.56,
-        "percent_full": "56",
+        "percent": 0.6066666666666667,
+        "percent_full": "61",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -10527,7 +9812,7 @@
         "updated": 1520469015000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 58,
+        "yes_rsvp_count": 64,
         "venue": {
             "id": 24189251,
             "name": "Clover Health",
@@ -10639,11 +9924,133 @@
         "is_getting_full": true,
         "is_popular": false,
         "is_full": false,
-        "percent": 0.7733333333333333,
-        "percent_full": "77",
+        "percent": 0.8533333333333334,
+        "percent_full": "85",
         "urls": {},
         "is_paid": false,
         "eventbrite_link": "https://eventbrite.com/e/panel-discussion-leveraging-user-research-in-health-tech-tickets-43953315550",
+        "is_hot": true
+    },
+    {
+        "created": 1520462528000,
+        "duration": 7200000,
+        "id": "248515674",
+        "name": "Lightroom User Group with Special Guest Jason Bradley",
+        "status": "upcoming",
+        "time": 1521682200000,
+        "local_date": "2018-03-21",
+        "local_time": "18:30",
+        "updated": 1520463534000,
+        "utc_offset": -25200000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 71,
+        "venue": {
+            "id": 6570992,
+            "name": "Adobe Systems",
+            "lat": 37.7713737487793,
+            "lon": -122.40201568603516,
+            "repinned": false,
+            "address_1": "601 Townsend Street",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94103",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1331254690000,
+            "name": "SF Bay Area Lightroom User Group",
+            "id": 3443472,
+            "join_mode": "open",
+            "lat": 37.77000045776367,
+            "lon": -122.4000015258789,
+            "urlname": "Bay-Area-Lightroom-Users",
+            "who": "Lovers of Lightroom",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "category": {
+                "id": 27,
+                "name": "Photography",
+                "shortname": "photography",
+                "sort_name": "Photography"
+            },
+            "topics": [
+                {
+                    "id": 186,
+                    "name": "Photoshop",
+                    "urlkey": "photoshop",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 206,
+                    "name": "Digital Photography",
+                    "urlkey": "digcam",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 223,
+                    "name": "Photography",
+                    "urlkey": "photo",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15043,
+                    "name": "Photography Classes",
+                    "urlkey": "photography-classes",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 15293,
+                    "name": "Adobe Photoshop",
+                    "urlkey": "adobe-photoshop",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16059,
+                    "name": "Lightroom",
+                    "urlkey": "lightroom",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 18718,
+                    "name": "Adobe",
+                    "urlkey": "adobe",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 30179,
+                    "name": "Photowalk",
+                    "urlkey": "photowalk",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 60085,
+                    "name": "Adobe Creative Suite",
+                    "urlkey": "adobe-creative-suite",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 71682,
+                    "name": "Lightroom Classes",
+                    "urlkey": "lightroom-classes",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 704882,
+                    "name": "Adobe Lightroom",
+                    "urlkey": "adobe-lightroom",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/Bay-Area-Lightroom-Users/events/248515674/",
+        "visibility": "public",
+        "objectID": "248515674",
+        "is_getting_full": false,
+        "is_popular": true,
+        "percent": null,
+        "urls": {},
+        "is_paid": false,
         "is_hot": true
     },
     {
@@ -10659,7 +10066,7 @@
         "updated": 1520791856000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 41,
+        "yes_rsvp_count": 43,
         "group": {
             "created": 1336239486000,
             "name": "Asians and Friends San Francisco Bay",
@@ -10752,8 +10159,8 @@
         "is_getting_full": true,
         "is_popular": false,
         "is_full": false,
-        "percent": 0.82,
-        "percent_full": "82",
+        "percent": 0.86,
+        "percent_full": "86",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -10867,7 +10274,7 @@
         "updated": 1520875421000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 75,
+        "yes_rsvp_count": 76,
         "venue": {
             "id": 25390364,
             "name": "LinkedIn",
@@ -10979,7 +10386,7 @@
         "is_getting_full": false,
         "is_popular": true,
         "is_full": false,
-        "percent": 0.28846153846153844,
+        "percent": 0.2923076923076923,
         "percent_full": "29",
         "urls": {},
         "is_paid": false,
@@ -10994,21 +10401,10 @@
         "time": 1521592200000,
         "local_date": "2018-03-20",
         "local_time": "17:30",
-        "updated": 1520645921000,
+        "updated": 1521057183000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 163,
-        "venue": {
-            "id": 25762843,
-            "name": "Microsoft",
-            "lat": 37.77677536010742,
-            "lon": -122.4166259765625,
-            "repinned": false,
-            "address_1": "1355 Market Street",
-            "city": "San Francisco",
-            "country": "US",
-            "localized_country_name": "USA"
-        },
+        "yes_rsvp_count": 169,
         "group": {
             "created": 1453069430000,
             "name": "San Francisco Engineering Leadership Community (SFELC)",
@@ -11094,6 +10490,86 @@
         "is_hot": true
     },
     {
+        "created": 1520720718000,
+        "duration": 9000000,
+        "id": "248613430",
+        "name": "Cathie Yun on Bulletproofs: Short Proofs for Confidential Transactions and More",
+        "status": "upcoming",
+        "time": 1522373400000,
+        "local_date": "2018-03-29",
+        "local_time": "18:30",
+        "updated": 1520987290000,
+        "utc_offset": -25200000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 117,
+        "venue": {
+            "id": 16345442,
+            "name": "GitHub HQ 3.0",
+            "lat": 37.78226852416992,
+            "lon": -122.39125061035156,
+            "repinned": false,
+            "address_1": "88 Colin P Kelly Jr Street",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94107",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1393203829000,
+            "name": "Papers we love too",
+            "id": 13035792,
+            "join_mode": "open",
+            "lat": 37.77000045776367,
+            "lon": -122.4000015258789,
+            "urlname": "papers-we-love-too",
+            "who": "readers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "category": {
+                "id": 34,
+                "name": "Tech",
+                "shortname": "tech",
+                "sort_name": "Tech"
+            },
+            "topics": [
+                {
+                    "id": 21751,
+                    "name": "Computer Science",
+                    "urlkey": "computer-science",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 93172,
+                    "name": "Academic Papers",
+                    "urlkey": "academic-papers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 132160,
+                    "name": "Computational Science and Engineering",
+                    "urlkey": "computational-science-and-engineering",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 135136,
+                    "name": "Scientific Computing",
+                    "urlkey": "scientific-computing",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/papers-we-love-too/events/248613430/",
+        "visibility": "public",
+        "objectID": "248613430",
+        "is_getting_full": false,
+        "is_popular": true,
+        "percent": null,
+        "urls": {},
+        "is_paid": false,
+        "is_hot": true
+    },
+    {
         "created": 1520730574000,
         "duration": 27000000,
         "id": "248616338",
@@ -11105,7 +10581,7 @@
         "updated": 1520731930000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 77,
+        "yes_rsvp_count": 82,
         "venue": {
             "id": 25649153,
             "name": "Ferry Building Marketplace",
@@ -11380,16 +10856,16 @@
         "created": 1520843226000,
         "duration": 7200000,
         "id": "248655950",
-        "name": "Explore The Land of Ethereum Today!",
-        "rsvp_limit": 44,
+        "name": "Explore The Land of Ethereum!",
+        "rsvp_limit": 49,
         "status": "upcoming",
         "time": 1522285200000,
         "local_date": "2018-03-28",
         "local_time": "18:00",
-        "updated": 1520969634000,
+        "updated": 1521030672000,
         "utc_offset": -25200000,
         "waitlist_count": 0,
-        "yes_rsvp_count": 38,
+        "yes_rsvp_count": 44,
         "venue": {
             "id": 20384242,
             "name": "WeWork Golden Gate",
@@ -11514,8 +10990,176 @@
         "is_getting_full": true,
         "is_popular": false,
         "is_full": false,
-        "percent": 0.8636363636363636,
-        "percent_full": "86",
+        "percent": 0.8979591836734694,
+        "percent_full": "90",
+        "urls": {},
+        "is_paid": false,
+        "is_hot": true
+    },
+    {
+        "created": 1520876254000,
+        "duration": 10800000,
+        "id": "248669111",
+        "name": "Leadership Skills: Managing People & Conflicts in the Workplace",
+        "rsvp_limit": 30,
+        "status": "upcoming",
+        "time": 1521911700000,
+        "local_date": "2018-03-24",
+        "local_time": "10:15",
+        "updated": 1520876254000,
+        "utc_offset": -25200000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 23,
+        "venue": {
+            "id": 8864102,
+            "name": "San Francisco Public Library",
+            "lat": 37.77887725830078,
+            "lon": -122.41578674316406,
+            "repinned": false,
+            "address_1": "100 Larkin Street",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94102",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1310266036000,
+            "name": "SF Free School",
+            "id": 2148441,
+            "join_mode": "open",
+            "lat": 37.7599983215332,
+            "lon": -122.44000244140625,
+            "urlname": "SF-Free-School",
+            "who": "Freeschoolers",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "category": {
+                "id": 2,
+                "name": "Career & Business",
+                "shortname": "career-business",
+                "sort_name": "Career & Business"
+            },
+            "topics": [
+                {
+                    "id": 173,
+                    "name": "Musicians",
+                    "urlkey": "musicians",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 226,
+                    "name": "Acting",
+                    "urlkey": "acting",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 391,
+                    "name": "Teachers",
+                    "urlkey": "teachers",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1254,
+                    "name": "Shamanism",
+                    "urlkey": "shamanism",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1322,
+                    "name": "Meditation",
+                    "urlkey": "meditation",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 3336,
+                    "name": "Self-Improvement",
+                    "urlkey": "self-improvement",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 4422,
+                    "name": "Social Networking",
+                    "urlkey": "socialnetwork",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 7203,
+                    "name": "Education & Technology",
+                    "urlkey": "edtech",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 10290,
+                    "name": "Spirituality",
+                    "urlkey": "spirituality",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16573,
+                    "name": "Artists",
+                    "urlkey": "boston-artists",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 16728,
+                    "name": "Writing",
+                    "urlkey": "writing",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 17150,
+                    "name": "Alternative Medicine",
+                    "urlkey": "alternative-medicine",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 17558,
+                    "name": "Performing Arts",
+                    "urlkey": "performing-arts",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 19146,
+                    "name": "Dance Lessons",
+                    "urlkey": "dance-lessons",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20629,
+                    "name": "Courses and Workshops",
+                    "urlkey": "courses-and-workshops",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 20727,
+                    "name": "Community Building",
+                    "urlkey": "community-building",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 23274,
+                    "name": "Theater",
+                    "urlkey": "live-theatre",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 135717,
+                    "name": "Executive Coaching",
+                    "urlkey": "executive-coaching",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/SF-Free-School/events/248669111/",
+        "how_to_find_us": "Fifth Floor, Learning Studio",
+        "visibility": "public",
+        "objectID": "248669111",
+        "is_getting_full": true,
+        "is_popular": false,
+        "is_full": false,
+        "percent": 0.7666666666666667,
+        "percent_full": "77",
         "urls": {},
         "is_paid": false,
         "is_hot": true
@@ -11647,7 +11291,7 @@
         "local_time": "18:00",
         "updated": 1520906076000,
         "utc_offset": -25200000,
-        "waitlist_count": 1,
+        "waitlist_count": 2,
         "yes_rsvp_count": 3,
         "group": {
             "created": 1319922444000,
@@ -11762,6 +11406,156 @@
         "is_full": true,
         "percent": 3,
         "percent_full": "300",
+        "urls": {},
+        "is_paid": false,
+        "is_hot": true
+    },
+    {
+        "created": 1520967871000,
+        "duration": 12600000,
+        "id": "248705308",
+        "name": "Partner Event: Blockchain: Powered by Women (Conversation & Cocktails)",
+        "rsvp_limit": 30,
+        "status": "upcoming",
+        "time": 1521070200000,
+        "local_date": "2018-03-14",
+        "local_time": "16:30",
+        "updated": 1520967871000,
+        "utc_offset": -25200000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 26,
+        "venue": {
+            "id": 904759,
+            "name": "Julia Morgan Ballroom",
+            "lat": 37.79254150390625,
+            "lon": -122.40213012695312,
+            "repinned": false,
+            "address_1": "465 California Street",
+            "address_2": "Merchants Exchange Building",
+            "city": "San Francisco",
+            "country": "us",
+            "localized_country_name": "USA",
+            "zip": "94104",
+            "state": "CA"
+        },
+        "group": {
+            "created": 1514925255000,
+            "name": "Blockchain for Good",
+            "id": 27031920,
+            "join_mode": "open",
+            "lat": 37.779998779296875,
+            "lon": -122.41999816894531,
+            "urlname": "Blockchain-for-Good",
+            "who": "Members",
+            "localized_location": "San Francisco, CA",
+            "region": "en_US",
+            "category": {
+                "id": 34,
+                "name": "Tech",
+                "shortname": "tech",
+                "sort_name": "Tech"
+            },
+            "topics": [
+                {
+                    "id": 16269,
+                    "name": "Currency Trading",
+                    "urlkey": "currency-trading",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 70315,
+                    "name": "Virtual Currency",
+                    "urlkey": "virtual-currency",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 100259,
+                    "name": "Decentralization",
+                    "urlkey": "decentralization",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 139517,
+                    "name": "Bitcoin",
+                    "urlkey": "bitcoin",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 143713,
+                    "name": "Digital Currency",
+                    "urlkey": "digital-currency",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 191791,
+                    "name": "Cryptocurrency",
+                    "urlkey": "cryptocurrency",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 918902,
+                    "name": "sharing economy",
+                    "urlkey": "sharing-economy",
+                    "lang": "de"
+                },
+                {
+                    "id": 1461892,
+                    "name": "Decentralized Systems",
+                    "urlkey": "decentralized-systems",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1471982,
+                    "name": "Smart Contracts",
+                    "urlkey": "smart-contracts",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1471992,
+                    "name": "Ethereum",
+                    "urlkey": "ethereum",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1493232,
+                    "name": "Blockchain",
+                    "urlkey": "blockchain",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1510432,
+                    "name": "Blockchain Security",
+                    "urlkey": "blockchain-security",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1511815,
+                    "name": "Women in Blockchain",
+                    "urlkey": "women-in-blockchain",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1513749,
+                    "name": "Blockchain Development",
+                    "urlkey": "blockchain-development",
+                    "lang": "en_US"
+                },
+                {
+                    "id": 1514179,
+                    "name": "Ethereum blockchain",
+                    "urlkey": "ethereum-blockchain",
+                    "lang": "en_US"
+                }
+            ]
+        },
+        "link": "https://www.meetup.com/Blockchain-for-Good/events/248705308/",
+        "visibility": "public",
+        "objectID": "248705308",
+        "is_getting_full": true,
+        "is_popular": false,
+        "is_full": false,
+        "percent": 0.8666666666666667,
+        "percent_full": "87",
         "urls": {},
         "is_paid": false,
         "is_hot": true

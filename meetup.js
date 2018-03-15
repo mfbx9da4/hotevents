@@ -62,7 +62,8 @@ async function search () {
   let start_date_range = moment().format('YYYY-MM-DDT00:00:00')
   let total = 0
   let events = {}
-  while (total < 10000) {
+  let prev_start_date_range = ''
+  while (total < 10000 && prev_start_date_range !== start_date_range) {
     let res = await getEvents({start_date_range})
     if (!res.events) { break }
     total += res.events.length
@@ -76,6 +77,7 @@ async function search () {
     }
     // TODO: optimize so that we hit cache
     // maybe use the ids to get the last one
+    prev_start_date_range = start_date_range
     start_date_range = `${local_date}T${local_time}`
   }
   const hot = []
