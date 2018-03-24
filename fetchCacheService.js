@@ -4,12 +4,13 @@ const config = require('config')
 const urlParser = require('url')
 const redis = require('./redis')
 
+const use_cache = JSON.parse(config.get('fetch_cache.use_cache'))
 const CACHE_EXPIRATION = config.get('fetch_cache.expiration')
-const save_to_disk = config.get('save_to_disk')
+const save_to_disk = config.get('fetch_cache.save_to_disk')
 
 async function fetchCachedUrl (url, key) {
   key = key || url
-  let text = await redis.getAsync(key)
+  let text = use_cache && await redis.getAsync(key)
   if (!text) {
     // miss
     try {

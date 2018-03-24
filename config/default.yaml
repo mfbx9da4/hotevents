@@ -3,9 +3,9 @@ redis:
   host: localhost
 
 fetch_cache:
+  use_cache: true
   expiration: 604800 # pages expire in one week
-
-save_to_disk: false
+  save_to_disk: false
 
 meetup:
   api_key: asdf

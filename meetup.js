@@ -96,7 +96,7 @@ async function search () {
     event.objectID = id
 
     let percent = event.yes_rsvp_count / event.rsvp_limit
-    let isGettingFull = percent < 1 && percent > 0.75 && event.rsvp_limit > 15
+    let isGettingFull = percent < 1 && percent > 0.75
     event.is_getting_full = isGettingFull
     event.is_popular = event.yes_rsvp_count > 70
     event.is_full = event.rsvp_limit && percent > 1
@@ -124,6 +124,7 @@ async function search () {
     }
 
     let isHot = isGettingFull || event.is_full || event.is_popular
+    // let isHot = isGettingFull
     if (isHot) {
       event.is_hot = true
       delete event.description

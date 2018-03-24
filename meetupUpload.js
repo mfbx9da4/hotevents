@@ -6,6 +6,10 @@ const records = require('./hot-sf.json')
 const client = algoliasearch(config.get('algolia.app_id'), config.get('algolia.admin_api_key'));
 const index = client.initIndex('sf-events');
 
+index.setSettings({
+  'attributesForFaceting': ['group.category.sort_name', 'is_getting_full', 'is_full', 'is_popular']
+})
+
 console.info('Reindex');
 
 const params = {

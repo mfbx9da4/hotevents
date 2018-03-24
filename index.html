@@ -25,6 +25,10 @@
     </div>
   </header>
   <main>
+      <div id="refinement-list">1</div>
+      <div id="refinement-list2">2</div>
+      <div id="refinement-list3">3</div>
+      <div id="refinement-list4">4</div>
       <div id="hits"></div>
       <div id="pagination"></div>
   </main>
@@ -74,7 +78,12 @@
       indexName: 'sf-events',
       urlSync: true,
       searchParameters: {
-        hitsPerPage: 500
+        hitsPerPage: 500,
+        facetFilters: {
+          'group.category.sort_name': 'Tech',
+          'is_getting_full': true,
+          'is_full': false
+        }
       }
     });
 
@@ -123,6 +132,35 @@
         hitsPerPage: 1000
       })
     );
+
+    search.addWidget(
+      instantsearch.widgets.refinementList({
+        container: '#refinement-list',
+        attributeName: 'group.category.sort_name'
+      })
+    );
+
+    search.addWidget(
+      instantsearch.widgets.refinementList({
+        container: '#refinement-list2',
+        attributeName: 'is_getting_full'
+      })
+    );
+
+    search.addWidget(
+      instantsearch.widgets.refinementList({
+        container: '#refinement-list3',
+        attributeName: 'is_full'
+      })
+    );
+
+    search.addWidget(
+      instantsearch.widgets.refinementList({
+        container: '#refinement-list4',
+        attributeName: 'is_popular'
+      })
+    );
+
     // Add this after all the search.addWidget() calls
     search.start();
 
