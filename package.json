@@ -4,9 +4,9 @@
   "description": "",
   "main": "cacheService.js",
   "scripts": {
-    "MeetupAndUpload": "node meetup.js && node meetupUpload.js",
-    "Meetup": "node meetup.js",
-    "UploadAlgolia": "node meetupUpload.js",
+    "DeployStatic": "node UploadStaticFiles.js",
+    "RunCrawlers": "node EventCrawler.js",
+    "UploadAlgolia": "node updateAlgolia.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

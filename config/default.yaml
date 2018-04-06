@@ -7,6 +7,14 @@ fetch_cache:
   expiration: 604800 # pages expire in one week
   save_to_disk: false
 
+event_crawler:
+  meetup:
+    skip: false
+    filename: hot-sf.json
+  eventbrite:
+    skip: false
+    filename: hot-sf-eventbrite.json
+
 meetup:
   api_key: asdf
 

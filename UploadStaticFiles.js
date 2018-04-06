@@ -12,6 +12,10 @@ const files = [
     ContentType: 'text/html'
   },
   {
+    Key: 'main.js',
+    ContentType: 'text/javascript'
+  },
+  {
     Key: 'style.css',
     ContentType: 'text/css'
   }
@@ -26,6 +30,7 @@ files.map((file) => {
       ACL: 'public-read',
       ...file
     }
+    console.info('putParams', putParams);
 
     s3.putObject(putParams, function (res) {
       console.log(arguments);

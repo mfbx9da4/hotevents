@@ -2,7 +2,7 @@ const config = require('config')
 const bluebird = require('bluebird')
 const Redis = require('redis')
 bluebird.promisifyAll(Redis.RedisClient.prototype)
-bluebird.promisifyAll(Redis.Multi.prototype);
+bluebird.promisifyAll(Redis.Multi.prototype)
 
 let client = null
 

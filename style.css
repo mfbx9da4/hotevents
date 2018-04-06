@@ -35,26 +35,85 @@ em {
 .hover-message {
   position: fixed;
   bottom: 40px;
-  right: 10%;
+  right: 60px;
   z-index: 2;
-  background: rgba(0,0,0,0.8);
   padding: 10px 20px;
   border-radius: 5px;
-  color: white;
+  text-shadow: 0px 0px 9px black;
 }
 
 .hit:hover {
-  background-color: rgba(0,0,0,.05);
+  /*background-color: rgba(0,0,0,.05);*/
 }
 
 .bg_color1 {
   background-color: rgba(0,0,0,.02);
 }
 
+.hit {
+  margin: 0.4rem 0;
+}
+
 .hit-content {
   clear: both;
 }
 
+.item-title {
+  font-size: 1.1rem;
+}
+
 .lighter {
   color: rgba(0,0,0,.54);
+}
+
+.is_first_event_of_day {
+  margin-top: 1rem;
+}
+.is_first_event_of_day .day_from_now {
+  display: block;
+  font-size: 1.3rem;
+}
+.day_from_now {
+  display: none;
+  margin: 0.4rem 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+  .item-aside {
+    display: inline-block;
+    float: right;
+  }
+}
+
+.item-date-time, .item-capacity-1 {
+  display: inline-block;
+  font-weight: lighter;
+  color: #666;
+}
+
+.item-tags {
+  display: inline-block;
+  font-weight: lighter;
+  padding: 2px
+}
+
+.item-tags a {
+  text-decoration: none;
+}
+
+.item-capacity-2 {
+  display: none;
+}
+
+.ais-search-box, #search-input {
+  margin: 0 auto;
 }
