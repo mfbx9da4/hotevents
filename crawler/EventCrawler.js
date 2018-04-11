@@ -25,11 +25,13 @@ async function perform () {
   const crawlerConf = config.get('event_crawler')
   if (!crawlerConf.eventbrite.skip) {
     const res = await EventbriteCrawler.getPages(fetchCachedUrl, config.get('eventbrite.personal_token'))
+    console.info('Eventbrite', res.length);
     writeFile(crawlerConf.eventbrite.filename, JSON.stringify(res, null, 2))
   }
 
   if (!crawlerConf.meetup.skip) {
     const res = await MeetupCrawler.getPages(fetchCachedUrl, config.get('meetup.api_key'))
+    console.info('Meetup', res.length);
     writeFile(crawlerConf.meetup.filename, JSON.stringify(res, null, 2))
   }
 

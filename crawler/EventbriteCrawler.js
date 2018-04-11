@@ -17,7 +17,7 @@ async function getPage (fetch, {start_date_range, token}) {
   const paramsObject = {
     'location.latitude': 37.771707,
     'location.longitude': -122.405377,
-    'location.within': '5mi',
+    'location.within': '15mi',
     token,
     'start_date.range_start': start_date_range
   }
@@ -96,8 +96,9 @@ function normalizeEvent (event) {
   event.fee = {}
   if (!ticket.free) {
     ticket.is_paid = true
-    event.fee.amount = ticket.cost.major_value
-    event.fee.currency = ticket.cost.currency
+    const cost = ticket.cost || {}
+    event.fee.amount = cost.major_value
+    event.fee.currency = cost.currency
   }
   event.objectID = `ebrite:${event.id}`
   for (let i = 0; i < event.ticket_classes.ticket_classes.length; i++) {
