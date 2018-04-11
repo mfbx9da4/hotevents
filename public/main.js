@@ -8,8 +8,8 @@ var search = instantsearch({
     hitsPerPage: 100,
     disjunctiveFacetsRefinements: {
       // 'group.category.sort_name': ['Tech', 'Career & Business'],
-      is_popular: [true, 'true'],
-      is_full: [false, 'false'],
+      // is_popular: [true, 'true'],
+      // is_full: [false, 'false'],
     },
     // tagRefinements: ['group.category.sort_name:Tech']
       // is_popular:[true]
@@ -104,25 +104,6 @@ search.addWidget(
   })
 )
 
-// search.addWidget(
-//   instantsearch.widgets.refinementList({
-//     container: '#refinement-list2',
-//     attributeName: 'is_getting_full',
-//     templates: {
-//       header: '',
-//       item: `<label class="{{cssClasses.label}}">
-//       <input type="checkbox"
-//              class="{{cssClasses.checkbox}}"
-//              value="{{value}}"
-//              {{#isRefined}}checked{{/isRefined}} />
-//           {{#helpers.ternary}}{{value}}?Greater than 75%:Less than 75%{{/helpers.ternary}}
-//       <span class="{{cssClasses.count}}">{{#helpers.formatNumber}}{{count}}{{/helpers.formatNumber}}</span>
-//     </label>`,
-//       footer: '',
-//     }
-//   })
-// );
-
 search.addWidget(
   instantsearch.widgets.toggle({
     container: '#refinement-list2',
@@ -195,6 +176,11 @@ search.addWidget(
   })
 )
 
+search.addWidget(
+  instantsearch.widgets.clearAll({
+    container: '#clearAll',
+  })
+)
 // Add this after all the search.addWidget() calls
 search.start()
 

@@ -80,6 +80,9 @@ function addObjects (index, batch) {
 async function uploadRecords (index, items) {
   const chunks = chunk(items, 100)
   return Promise.all(chunks.map(async function(batch, i) {
+    for (let item of batch) {
+      console.info('batch.name', item.id, item.name);
+    }
     const res = await addObjects(index, batch)
     console.info('Indexed batch', i, res.length, res.objectIDs.length)
     return res
@@ -90,10 +93,14 @@ async function main () {
   const index = await setIndexSettings()
   const deleteStaleRes = await deleteStale(index)
   console.info('deleteStaleRes', deleteStaleRes);
-  // await deleteAll(index)
+  const deletAllRes = await deleteAll(index)
+  console.info('deletAllRes', deletAllRes);
   console.info('[records, eventbriteRecords]', [records.length, eventbriteRecords.length]);
+
+  // const allRecords = [records, eventbriteRecords]
+  const allRecords = [eventbriteRecords]
   try {
-    const uploadRes = await Promise.all([records, eventbriteRecords].map(uploadRecords.bind(null, index)))
+    const uploadRes = await Promise.all(allRecords.map(uploadRecords.bind(null, index)))
     console.info('uploadRes', uploadRes);
   } catch (err) {
     console.info('err', err);

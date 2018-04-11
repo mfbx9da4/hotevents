@@ -1,5 +1,5 @@
 const moment = require('moment')
-const getUrls = require('get-urls')
+const { addTagsToEvent, addDescriptionTags, addTimeOfDayTags } = require('./utils')
 
 const FETCH_SIZE_LIMIT = 100000
 
@@ -98,31 +98,8 @@ function parsePages(events) {
         event.percent_full = (percent * 100).toFixed(0)
       }
 
-      event.urls = []
-      if (event.description) {
-        const urls = getUrls(event.description)
-        let desc = event.description.toLowerCase()
-        tags.is_paid = desc.indexOf('a paid event') > -1
-        tags.has_drinks = desc.indexOf(' drinks ') > -1
-        tags.has_food = desc.indexOf(' food ') > -1 || desc.indexOf('refreshments') > -1
-        tags.has_pizza = desc.indexOf(' pizza ') > -1
-
-        addTagsToEvent(event, tags)
-
-        // get urls
-        for (let url of urls) {
-          event.urls.push(url)
-          if (url.indexOf('eventbrite.com/') > -1) {
-            if (!event.eventbrite_link || url < event.eventbrite_link) {
-              event.eventbrite_link = url
-            }
-          } else if (url.indexOf('/forms') > -1) {
-            if (!event.form_link || url < event.form_link) {
-              event.form_link = url
-            }
-          }
-        }
-      }
+      addDescriptionTags(event, event.description, tags)
+      addTagsToEvent(event, tags)
 
       // let isHot = isGettingFull || event.is_full || event.is_popular
       // let isHot = isGettingFull
@@ -135,17 +112,6 @@ function parsePages(events) {
     }
     console.info('hot', hot.length);
     return hot
-}
-
-function addTagsToEvent (event, tags) {
-  event._tags = []
-  for (let name in tags) {
-    let value = tags[name]
-    event[name] = value
-    if (value) {
-      event._tags.push(name)
-    }
-  }
 }
 
 module.exports = {

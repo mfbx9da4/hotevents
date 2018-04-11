@@ -9,11 +9,11 @@ fetch_cache:
 
 event_crawler:
   meetup:
-    skip: false
-    filename: hot-sf.json
+    skip: true
+    filename: crawler/hot-sf.json
   eventbrite:
     skip: false
-    filename: hot-sf-eventbrite.json
+    filename: crawler/hot-sf-eventbrite.json
 
 meetup:
   api_key: asdf
