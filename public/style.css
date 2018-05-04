@@ -9,6 +9,15 @@ html, body {
   line-height: 1.2;
 }
 
+h1 {
+  text-align: center;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 em {
   background: yellow;
 }
@@ -76,15 +85,6 @@ em {
 .day_from_now {
   display: none;
   margin: 0.4rem 0;
-}
-
-h1 {
-  text-align: center;
-}
-
-main {
-  max-width: 900px;
-  margin: 0 auto;
 }
 
 @media (min-width: 900px) {

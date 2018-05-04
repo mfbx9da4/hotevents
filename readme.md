@@ -1,10 +1,20 @@
+## Install
+
+    yarn
+    pip3 install awscli --upgrade --user # aws cli for deployment
+
 ## Dev
 
 Requires redis to be running.
 
 ## Crawl and update db
 
-    node meetup.js && node meetupUpload.js
+    node index.js --run
+
+## Deploy lambda func
+
+    zip -r tmp/lambda.zip .
+    aws lambda update-function-code --function-name hellowrld --zip-file "fileb://tmp/lambda.zip"
 
 
 ## Deploy

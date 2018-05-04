@@ -53,7 +53,6 @@
     <div class="hover-message">Hire me!</div></a>
     <p>Made with ❤️ using the <a href="https://www.meetup.com/find/events/?allMeetups=true&radius=50&userFreeform=San+Francisco%2C+CA&mcId=z94101&mcName=San+Francisco%2C+CA&eventFilter=all">meetup.com</a> API by <a href="mailto:dalberto.adler@gmail.com">David Alberto Adler</a>.</p>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
 
   <!-- Add this to your HTML document -->
   <script type="text/html" id="hit-template">
@@ -66,13 +65,13 @@
             <b>{{{_highlightResult.name.value}}}</b>
           </a>
 
-          <div class='item-tags'>{{#is_paid}} 💵 Paid{{/is_paid}}{{#fee.amount}} 💵 {{fee.currency}}{{fee.amount}}{{/fee.amount}} {{#eventbrite_link}} <a target="_blank" href="{{eventbrite_link}}"><img src="https://flowdocs.built.io/assets/blt174abb009294acc4/Eventbrite-128.png" height="14px"> Eventbrite</a>{{/eventbrite_link}}{{#has_pizza}}🍕 Pizza{{/has_pizza}}{{#has_food}}🍜 Food{{/has_food}}{{#has_drinks}}🍸 Drinks{{/has_drinks}}
+          <div class='item-tags'>{{#is_paid}} 💵 Paid{{/is_paid}}{{#fee.amount}} 💵 {{fee.currency}}{{fee.amount}}{{/fee.amount}} {{#eventbrite_link}} <a target="_blank" href="{{eventbrite_link}}"><img src="https://flowdocs.built.io/assets/blt174abb009294acc4/Eventbrite-128.png" height="14px"> Eventbrite</a>{{/eventbrite_link}}{{#has_pizza}} 🍕 Pizza{{/has_pizza}}{{#has_food}} 🍜 Food{{/has_food}}{{#has_drinks}} 🍸 Drinks{{/has_drinks}}
           </div>
 
           <!-- Date -->
           <div class="item-aside">
-            <div class='item-capacity-1' style=' margin-right: 10px;'>{{#percent_full}}{{percent_full}}% capacity, {{/percent_full}} {{yes_rsvp_count}} going</div>
-            <div class='item-date-time' style=''>{{local_date_string}} {{local_time}}</div>
+            <div class='item-capacity-1' style=' margin-right: 10px;'> {{#percent_full}}{{percent_full}}% capacity, {{/percent_full}} {{yes_rsvp_count}} going</div>
+            <div class='item-date-time' style=''>{{local_date_string}} {{local_time}} {{time_of_day}}</div>
           </div>
 
 
@@ -88,7 +87,8 @@
     </div>
   </script>
 
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js'></script>
-  <script src='main.js?v1'></script>
+  <script src='main.js?v6'></script>
 </body>
 </html>

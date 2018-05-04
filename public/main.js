@@ -5,11 +5,12 @@ var search = instantsearch({
   indexName: 'sf-events',
   urlSync: true,
   searchParameters: {
+    page: 0,
     hitsPerPage: 100,
     disjunctiveFacetsRefinements: {
       // 'group.category.sort_name': ['Tech', 'Career & Business'],
-      // is_popular: [true, 'true'],
-      // is_full: [false, 'false'],
+      is_popular: [true, 'true'],
+      is_full: [false, 'false']
     },
     // tagRefinements: ['group.category.sort_name:Tech']
       // is_popular:[true]
@@ -64,6 +65,15 @@ search.addWidget(
     },
     transformData: {
       item: function(hit) {
+        const hourOfDay = parseInt(hit.local_time.split(':')[0])
+        if (hourOfDay < 17) {
+          hit.time_of_day = '☀️'
+        } else if (hourOfDay < 20) {
+          hit.time_of_day = '🌗'
+        } else {
+          hit.time_of_day = '🌚'
+        }
+
         if (hit.local_date !== prev) {
           apply_bg_color1 = !apply_bg_color1
           hit.is_first_event_of_day = true
@@ -183,4 +193,6 @@ search.addWidget(
 )
 // Add this after all the search.addWidget() calls
 search.start()
+// search.helper.setPage(0)
+// search.helper.searchOnce().then((res) => console.log(res))
 

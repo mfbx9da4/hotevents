@@ -9,10 +9,10 @@ fetch_cache:
 
 event_crawler:
   meetup:
-    skip: true
+    skip: false
     filename: crawler/hot-sf.json
   eventbrite:
-    skip: false
+    skip: true
     filename: crawler/hot-sf-eventbrite.json
 
 meetup:

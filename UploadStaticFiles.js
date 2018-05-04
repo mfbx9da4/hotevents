@@ -21,7 +21,7 @@ const files = [
   }
 ]
 files.map((file) => {
-  fs.readFile(file.Key, function (err, data) {
+  fs.readFile(`public/${file.Key}`, function (err, data) {
     if (err) { throw err; }
     var base64data = new Buffer(data, 'binary');
     const putParams = {

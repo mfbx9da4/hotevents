@@ -52,13 +52,27 @@ function deleteAll (index) {
   })
 }
 
+function listStale (index) {
+  const today = new Date()
+  // Don't delete events which started in the last 4 hours
+  today.setHours(Math.max(today.getHours() - 4, 0))
+  const params = {
+    filters: `time < ${today.getTime() * 1000}`
+  }
+  return new Promise(function(resolve, reject) {
+      index.search('', params, (err, res) => {
+        if (err) return reject(err)
+        return resolve(res)
+      })
+  })
+}
 
 function deleteStale (index) {
   const today = new Date()
   // Don't delete events which started in the last 4 hours
   today.setHours(Math.max(today.getHours() - 4, 0))
   const params = {
-    filters: `time < ${today.getTime()}`
+    filters: `time < ${today.getTime() * 1000}`
   }
   return new Promise(function(resolve, reject) {
       index.deleteBy(params, (err, res) => {
@@ -91,14 +105,22 @@ async function uploadRecords (index, items) {
 
 async function main () {
   const index = await setIndexSettings()
+  // console.info('hey');
+  // console.info(await listStale(index));
+  // return
   const deleteStaleRes = await deleteStale(index)
   console.info('deleteStaleRes', deleteStaleRes);
   const deletAllRes = await deleteAll(index)
   console.info('deletAllRes', deletAllRes);
   console.info('[records, eventbriteRecords]', [records.length, eventbriteRecords.length]);
 
-  // const allRecords = [records, eventbriteRecords]
-  const allRecords = [eventbriteRecords]
+  const allRecords = []
+  if (!config.get('event_crawler.meetup.skip')) {
+    allRecords.push(records)
+  }
+  if (!config.get('event_crawler.eventbrite.skip')) {
+    allRecords.push(eventbriteRecords)
+  }
   try {
     const uploadRes = await Promise.all(allRecords.map(uploadRecords.bind(null, index)))
     console.info('uploadRes', uploadRes);
@@ -107,6 +129,6 @@ async function main () {
   }
 }
 
-main()
+module.exports = main
 
 
