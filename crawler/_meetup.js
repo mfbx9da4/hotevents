@@ -44,7 +44,7 @@ async function getEvents ({start_date_range}) {
   const params = Object.keys(paramsObject)
     .map(key => `${key}=${paramsObject[key]}`)
     .join('&')
-  console.info('params', params);
+  // console.info('params', params);
   // Documentation: https://www.meetup.com/meetup_api/docs/find/upcoming_events/
   const url = `https://api.meetup.com/find/upcoming_events?${params}`
   try {

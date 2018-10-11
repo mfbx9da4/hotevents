@@ -4,7 +4,7 @@ Requires redis to be running.
 
 ## Crawl and update db
 
-    node meetup.js && node meetupUpload.js
+    node index.js --run
 
 
 ## Deploy

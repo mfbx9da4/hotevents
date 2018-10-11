@@ -154,7 +154,10 @@ function normalizeEvent (event) {
   event.local_time = event.start.local.split('T')[1].substring(0, 5)
   event.link = event.url
   event.time = moment(event.start.utc).unix() * 1000
-  const ticket = event.ticket_classes.ticket_classes[0]
+  console.info('event', event);
+  const ticket = event.ticket_classes
+    ? event.ticket_classes.ticket_classes[0]
+    : {free: true}
   event.fee = {}
   if (!ticket.free) {
     ticket.is_paid = true

@@ -16,8 +16,8 @@ const blackList = new Set([
 
 async function getPage (fetch, {start_date_range, key}) {
   const paramsObject = {
-    lat: 37.771707,
-    lon: -122.405377,
+    // lat: 37.771707, lon: -122.405377, // San Fran
+    lat: 51.5074, lon: -0.1277, // London
     radius: 5,
     order: 'time',
     page: 500,
@@ -29,7 +29,7 @@ async function getPage (fetch, {start_date_range, key}) {
   const params = Object.keys(paramsObject)
     .map(key => `${key}=${paramsObject[key]}`)
     .join('&')
-  console.info('params', params);
+  // console.info('params', params);
   // Documentation: https://www.meetup.com/meetup_api/docs/find/upcoming_events/
   const url = `https://api.meetup.com/find/upcoming_events?${params}`
   try {
@@ -54,7 +54,7 @@ async function getPages (fetch, apikey) {
     total += res.events.length
     let id, time, local_date, local_time, venue
     for (var event of res.events) {
-      id = event.id; time = event.time; venue = event.venue
+      id = event.id; time = event.time
       local_date = event.local_date || local_date;
       local_time = event.local_time || local_time;
       events[id] = event
@@ -85,6 +85,22 @@ function parsePages(events) {
       event.objectID = id
       tags.is_from_meetup = true
 
+      // geo
+      let venue = event.venue || {}
+      event._geoloc = {
+        lat: venue.lat,
+        lng: venue.lon
+      }
+
+      const hourOfDay = parseInt(event.local_time.split(':')[0])
+      if (hourOfDay < 17) {
+        event.time_of_day = 'day'
+      } else if (hourOfDay < 20) {
+        event.time_of_day = 'evening'
+      } else {
+        event.time_of_day = 'night'
+      }
+
       let percent = event.yes_rsvp_count / event.rsvp_limit
       let isGettingFull = percent < 1 && percent > 0.75
       tags.is_getting_full = isGettingFull
@@ -97,6 +113,9 @@ function parsePages(events) {
       if (percent) {
         event.percent_full = (percent * 100).toFixed(0)
       }
+
+      // convert to nanoseconds
+      event.time = event.time * 1000
 
       addDescriptionTags(event, event.description, tags)
       addTagsToEvent(event, tags)

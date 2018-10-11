@@ -1,56 +1,71 @@
 'use strict'
 
-const fs = require('fs')
+const fs = require('./fsUtils')
 const config = require('config')
 const redis = require('./redis')
 const { fetchCachedUrl } = require('./fetchCacheService')
 const cache = require('./cacheService')
 const MeetupCrawler = require('./MeetupCrawler')
 const EventbriteCrawler = require('./EventbriteCrawler')
+const is_production = process.env.NODE_ENV === 'production'
+const path = require('path')
+const _ = require('underscore')
 
 process.on('unhandledRejection', (reason, p) => {
   console.log('Unhandled Rejection at: Promise', p, 'reason:', reason);
 });
 
-
-function writeFile (filename, contents) {
-  fs.writeFile(filename, contents, function (err) {
-      if (err)
-        return console.log(err);
-      console.log('wrote ' + filename);
-  });
-}
-
 async function perform () {
+  console.info('perform');
   const crawlerConf = config.get('event_crawler')
+  let ebRes
   if (!crawlerConf.eventbrite.skip) {
-    const res = await EventbriteCrawler.getPages(fetchCachedUrl, config.get('eventbrite.personal_token'))
-    console.info('Eventbrite', res.length);
-    writeFile(crawlerConf.eventbrite.filename, JSON.stringify(res, null, 2))
+    ebRes = await EventbriteCrawler.getPages(fetchCachedUrl, config.get('eventbrite.personal_token'))
+    console.info('Eventbrite', ebRes.length);
+    await fs.writeFile(crawlerConf.eventbrite.filename, JSON.stringify(ebRes, null, 2))
   }
 
+  let meetupRes
   if (!crawlerConf.meetup.skip) {
-    const res = await MeetupCrawler.getPages(fetchCachedUrl, config.get('meetup.api_key'))
-    console.info('Meetup', res.length);
-    writeFile(crawlerConf.meetup.filename, JSON.stringify(res, null, 2))
+    meetupRes = await MeetupCrawler.getPages(fetchCachedUrl, config.get('meetup.api_key'))
+    console.info('Meetup', meetupRes.length);
+    await fs.writeFile(crawlerConf.meetup.filename, JSON.stringify(meetupRes, null, 2))
+    await fs.writeFile(`./out/meetup/meetup${Date.now()}.json`, JSON.stringify(meetupRes, null, 2))
+  }
+  return [ebRes, meetupRes]
+}
+
+async function main (done) {
+  console.info('main');
+  let performed = false
+
+  const doPerform = async (done) => {
+    if (!performed) {
+      performed = true
+      const res = await perform()
+      redis.quit()
+      done(null, res)
+    }
   }
 
-}
-
-async function main () {
-  let performed = false
   redis.on('connect', async () => {
-    console.info('connected');
-    !performed && await perform()
-    performed = true
-    redis.quit()
+    console.info('Redis connected');
+    await doPerform(done)
   })
-  redis.on('error', () => {
-    console.info('error');
-    !performed && perform()
-    performed = true
-    redis.quit()
+
+  redis.on('error', async () => {
+    console.info('Redis connection error');
+    await doPerform(done)
   })
 }
 
-main()
+function waitForMain () {
+  return new Promise(function(resolve, reject) {
+    main((err, res) => {
+      if (err) return reject(err)
+      return resolve(res)
+    })
+  })
+}
+
+module.exports = waitForMain

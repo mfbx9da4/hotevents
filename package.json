@@ -15,6 +15,7 @@
     "algoliasearch": "^3.24.11",
     "aws-sdk": "^2.209.0",
     "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
     "config": "^1.29.4",
     "get-urls": "^7.2.0",
     "isomorphic-fetch": "^2.2.1",
@@ -22,6 +23,7 @@
     "lodash": "^4.17.5",
     "lodash.chunk": "^4.2.0",
     "moment": "^2.20.1",
-    "redis": "^2.8.0"
+    "redis": "^2.8.0",
+    "underscore": "^1.9.1"
   }
 }
