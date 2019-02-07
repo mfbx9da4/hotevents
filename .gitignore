@@ -1,3 +1,7 @@
 node_modules
+out
+.idea
+*.sublime-*
+_misc
 config/local.yaml
 .DS_Store
