@@ -1,0 +1,2 @@
+fetch_cache:
+  use_cache: USE_CACHE

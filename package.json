@@ -20,10 +20,15 @@
     "get-urls": "^7.2.0",
     "isomorphic-fetch": "^2.2.1",
     "js-yaml": "^3.10.0",
+    "knex": "^0.16.3",
     "lodash": "^4.17.5",
     "lodash.chunk": "^4.2.0",
     "moment": "^2.20.1",
+    "pg": "^7.8.0",
     "redis": "^2.8.0",
     "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.3"
   }
 }

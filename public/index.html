@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
   <!-- Always use `2.x` versions in evention rather than `2` to mitigate any side effects on your website,
   Find the latest version on InstantSearch.js website: https://community.algolia.com/instantsearch.js/v2/guides/usage.html -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css?v2">
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -34,7 +34,6 @@
   <main>
       <input id="search-input" placeholder="Search for events">
       <div id="clearAll"></div>
-      <br>
       <div id="is_getting_full"></div>
       <div class="refinement-list" id="refinement-list2"></div>
       <div class="refinement-list" id="refinement-list3"></div>
@@ -65,17 +64,26 @@
         <div class='day_from_now'>{{day_from_now}}</div>
         <div class="hit-name">
 
-          <a class='item-title' href="{{link}}" target="_blank">
-            <b>{{{_highlightResult.name.value}}}</b>
-          </a>
-
-          <div class='item-tags'>{{#is_paid}} 💵 Paid{{/is_paid}}{{#fee.amount}} 💵 {{fee.currency}}{{fee.amount}}{{/fee.amount}} {{#eventbrite_link}} <a target="_blank" href="{{eventbrite_link}}"><img src="https://flowdocs.built.io/assets/blt174abb009294acc4/Eventbrite-128.png" height="14px"> Eventbrite</a>{{/eventbrite_link}}{{#has_pizza}} 🍕 Pizza{{/has_pizza}}{{#has_food}} 🍜 Food{{/has_food}}{{#has_drinks}} 🍸 Drinks{{/has_drinks}}
+          <div class="hit-title">
+            <a class='item-title' href="{{link}}" target="_blank">
+              <span>{{{_highlightResult.name.value}}}</span>
+            </a>
           </div>
 
           <!-- Date -->
           <div class="item-aside">
-            <div class='item-capacity-1' style=' margin-right: 10px;'>{{yes_rsvp_count}} going {{#percent_full}}| {{^is_getting_full}}{{/is_getting_full}}{{#is_getting_full}}🔴{{/is_getting_full}}{{#is_full}}⚫️{{/is_full}}{{percent_full}}% capacity{{/percent_full}}</div>
-            <div class='item-date-time' style=''>{{local_date_string}} {{local_time}} {{time_of_day}}</div>
+            <div class='item-capacity-1'>
+              <div class="yes_rsvp_count">{{yes_rsvp_count}} going</div>
+              <div class="percent_full">{{#percent_full}} {{^is_getting_full}}{{/is_getting_full}}{{#is_getting_full}}🔴{{/is_getting_full}}{{#is_full}}⚫️{{/is_full}}{{percent_full}}% capacity{{/percent_full}}</div></div>
+              <!--<div class='item-date-time' style=''>{{local_date_string}} {{local_time}} {{time_of_day}}</div>-->
+            <div class='item-tags'>
+                {{#is_paid}} <div class="item-tag"><i class="item-tag-icon">💵</i> Paid</div>{{/is_paid}}
+                {{#fee.amount}}<div class="item-tag"> <i class="item-tag-icon">💵</i> {{fee.currency}}{{fee.amount}}</div>{{/fee.amount}}
+                {{#eventbrite_link}} <div class="item-tag"><a target="_blank" href="{{eventbrite_link}}"><img src="https://flowdocs.built.io/assets/blt174abb009294acc4/Eventbrite-128.png" height="14px"> Eventbrite</a></div>{{/eventbrite_link}}
+                {{#has_pizza}} <div class="item-tag"><i class="item-tag-icon">🍕</i> Pizza</div>{{/has_pizza}}
+                {{#has_food}} <div class="item-tag"><i class="item-tag-icon">🍜</i> Food</div>{{/has_food}}
+                {{#has_drinks}} <div class="item-tag"><i class="item-tag-icon">🍸</i> Drinks</div>{{/has_drinks}}
+            </div>
           </div>
 
 
@@ -86,6 +94,9 @@
           <div>
             <div class='item-capacity-2'>{{yes_rsvp_count}} going, {{#is_getting_full}}🔴 {{/is_getting_full}}{{#percent_full}}{{percent_full}}% capacity, {{/percent_full}}</div>
           </div>
+        </div>
+        <div class="hit-content-aside">
+            <div class='item-date-time' style=''>{{local_date_string}} {{local_time}} {{time_of_day}}</div>
         </div>
       </div>
     </div>

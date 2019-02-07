@@ -124,11 +124,13 @@ search.addWidget(
   instantsearch.widgets.toggle({
     container: '#refinement-list2',
     attributeName: 'is_getting_full',
-    label: `🔴Almost Full`,
+    label: `Almost Full`,
     values: {
       on: true,
     },
-    templates: {}
+    cssClasses: {
+      // count: 'hide'
+    }
   })
 )
 
@@ -150,7 +152,7 @@ search.addWidget(
     attributeName: 'is_popular',
     label: 'Is Popular',
     values: {
-      on: true
+      on: true,
     },
     templates: {}
   })

@@ -1,0 +1,98 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hot Events</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+  <!-- Always use `2.x` versions in evention rather than `2` to mitigate any side effects on your website,
+  Find the latest version on InstantSearch.js website: https://community.algolia.com/instantsearch.js/v2/guides/usage.html -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <header>
+    <h1><a href="/">🚀 Hot Events</a></h1>
+    <p>Looking to network in London?</p>
+    <p>Find popular events before they fill up. Filter for events which have free food and drinks.</p>
+  </header>
+  <nav style='display: none'>
+    Use cases:
+    <ul>
+      <li>What's on today? <small>Persona: Unemployed person looking for free food and a job.</small></li>
+      <li>What's on this week? <small>Persona: Planning the week.</small></li>
+      <li>What's filling up in the next couple weeks? <small>Persona: Doesn't want to miss early bird tickets.</small></li>
+      <li> <small>Persona: Looking to make friends</small></li>
+      <li> <small>Persona: Looking to employ developers</small></li>
+    </ul>
+  </nav>
+  <main>
+      <input id="search-input" placeholder="Search for events">
+      <div id="clearAll"></div>
+      <br>
+      <div id="is_getting_full"></div>
+      <div class="refinement-list" id="refinement-list2"></div>
+      <div class="refinement-list" id="refinement-list3"></div>
+      <div class="refinement-list" id="refinement-list4"></div>
+      <br>
+      <div class="refinement-list" id="refinement-list5"></div>
+      <div class="refinement-list" id="refinement-list6"></div>
+      <div class="refinement-list" id="refinement-list7"></div>
+      <!-- <div class="refinement-list" id="refinement-list8"></div> -->
+      <br>
+      <div class="refinement-list" id="refinement-list"></div>
+      <br>
+      <div id="hits"></div>
+      <div id="pagination"></div>
+  </main>
+  <footer>
+    <a target='_blank' href="mailto:dalberto.adler@gmail.com">
+      <div class="profile-img"></div>
+      <div class="bubble hover-message">Contact me!</div>
+    </a>
+    <p class="credit">Made with ❤️ by <a target="_blank" href="https://davidalbertoadler.com">David Alberto Adler</a> using <a href="https://www.meetup.com/find/events/?allMeetups=true&radius=50&userFreeform=San+Francisco%2C+CA&mcId=z94101&mcName=San+Francisco%2C+CA&eventFilter=all">meetup.com</a> and <a class="ais-search-box--powered-by-link" href="https://www.algolia.com/?utm_source=instantsearch.js&amp;utm_medium=website&amp;utm_content=&amp;utm_campaign=poweredby" target="_blank">Algolia</a>.</p>
+  </footer>
+
+  <!-- Add this to your HTML document -->
+  <script type="text/html" id="hit-template">
+    <div class="hit {{#is_first_event_of_day}}is_first_event_of_day{{/is_first_event_of_day}} ">
+      <div class="hit-content">
+        <div class='day_from_now'>{{day_from_now}}</div>
+        <div class="hit-name">
+
+          <a class='item-title' href="{{link}}" target="_blank">
+            <b>{{{_highlightResult.name.value}}}</b>
+          </a>
+
+          <div class='item-tags'>{{#is_paid}} 💵 Paid{{/is_paid}}{{#fee.amount}} 💵 {{fee.currency}}{{fee.amount}}{{/fee.amount}} {{#eventbrite_link}} <a target="_blank" href="{{eventbrite_link}}"><img src="https://flowdocs.built.io/assets/blt174abb009294acc4/Eventbrite-128.png" height="14px"> Eventbrite</a>{{/eventbrite_link}}{{#has_pizza}} 🍕 Pizza{{/has_pizza}}{{#has_food}} 🍜 Food{{/has_food}}{{#has_drinks}} 🍸 Drinks{{/has_drinks}}
+          </div>
+
+          <!-- Date -->
+          <div class="item-aside">
+            <div class='item-capacity-1' style=' margin-right: 10px;'>{{yes_rsvp_count}} going {{#percent_full}}| {{^is_getting_full}}{{/is_getting_full}}{{#is_getting_full}}🔴{{/is_getting_full}}{{#is_full}}⚫️{{/is_full}}{{percent_full}}% capacity{{/percent_full}}</div>
+            <div class='item-date-time' style=''>{{local_date_string}} {{local_time}} {{time_of_day}}</div>
+          </div>
+
+
+          {{#_highlightResult.group.topics}}
+            <div style='display: none; font-size: 8px; font-weight: lighter; padding: 2px;
+            background: #efefef;'>{{{name.value}}}</div>
+            {{/_highlightResult.group.topics}}
+          <div>
+            <div class='item-capacity-2'>{{yes_rsvp_count}} going, {{#is_getting_full}}🔴 {{/is_getting_full}}{{#percent_full}}{{percent_full}}% capacity, {{/percent_full}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js'></script>
+  <script src='main.js?v7'></script>
+</body>
+</html>
