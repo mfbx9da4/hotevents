@@ -22,6 +22,12 @@ algolia:
   app_id: asdf
   admin_api_key: asdf
 
+pg:
+  host: '127.0.0.1'
+  user: 'DavidAdler'
+  password: ''
+  database: 'DavidAdler'
+
 aws:
   accessKeyId: asdf
   secretAccessKey: asdf

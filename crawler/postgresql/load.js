@@ -1,14 +1,8 @@
 const knexLib = require('knex')
+const config = require('config')
 
 class PGLoader {
-  constructor(
-    connection = {
-      host: '127.0.0.1',
-      user: 'DavidAdler',
-      password: '',
-      database: 'DavidAdler',
-    }
-  ) {
+  constructor(connection = config.get('pg')) {
     this.knex = knexLib({
       client: 'postgresql',
       connection,
@@ -16,14 +10,14 @@ class PGLoader {
   }
 
   async insertRow(trx, data) {
-    let res = await trx('books').insert({
+    await trx('events').insert({
       data,
     })
   }
 
   async load(rows) {
     await this.knex.transaction(async (trx) => {
-      await trx('books').delete()
+      await trx('events').delete()
       for (let i = 0; i < rows.length; i++) {
         let item = rows[i]
         await this.insertRow(trx, item)
