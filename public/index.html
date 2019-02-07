@@ -68,6 +68,11 @@
             <a class='item-title' href="{{link}}" target="_blank">
               <span>{{{_highlightResult.name.value}}}</span>
             </a>
+          <a class='item-title' href="{{link}}" target="_blank">
+            <b>{{{_highlightResult.name.value}}}</b>
+          </a>
+
+          <div class='item-tags'>{{#is_paid}} 💵 Paid{{/is_paid}}{{#fee.amount}} 💵 {{fee.currency}}{{fee.amount}}{{/fee.amount}} {{#eventbrite_link}} <a target="_blank" href="{{eventbrite_link}}"><img src="https://flowdocs.built.io/assets/blt174abb009294acc4/Eventbrite-128.png" height="14px"> Eventbrite</a>{{/eventbrite_link}}{{#has_pizza}} 🍕 Pizza{{/has_pizza}}{{#has_food}} 🍜 Food{{/has_food}}{{#has_drinks}} 🍸 Drinks{{/has_drinks}}
           </div>
 
           <!-- Date -->

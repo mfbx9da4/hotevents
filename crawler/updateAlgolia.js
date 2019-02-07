@@ -91,6 +91,9 @@ async function uploadRecords(index, items) {
 
 async function main(records, eventbriteRecords) {
   const index = await setIndexSettings()
+  // console.info('hey');
+  // console.info(await listStale(index));
+  // return
   const deleteStaleRes = await deleteStale(index)
   console.info('deleteStaleRes', deleteStaleRes)
   console.info('[records, eventbriteRecords]', [
